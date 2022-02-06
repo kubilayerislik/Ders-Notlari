@@ -86,3 +86,107 @@ Yukarıdaki tabloda görülenm mtcars veri seti iki boyutlu bir veri nesnesine �
 Bir veri nesnesinin kaç boyutlu olduğu o veri nesnesindeki herhangi bir veriye erişmek için kaç tane bilgiye ihtiyaç duyduğumuzla ilgilidir. Örneğin, bir listede herhangi bir veriye ulaşmak için sadece verinin listedeki sıra numarasını bilmek yeterlidir. Yukarıdaki tabloda ise herhangi bir veriye ulaşmak için o verinin satır ve sütun bilgisinin bilinmesi gerekmektedir.
 
 NumPy dizileri aslında n boyutlu diziler olarak tanımlanmıştır. Bir NumPy dizisinin türünü __type()__ fonksiyonunu kullanarak görmek istediğimizde __numpy.ndarray__ olduğunu görürüz. Bu ifadedeki __ndarray__ ifadesi n dimensional yani n boyutlu dizi anlamına gelmektedir.
+
+```python
+>>> hisse = np.array([3.4, 3.6, 3.9, 4.2, 4.0, 3.8])
+>>> type(hisse)
+
+numpy.ndarray
+```
+
+NumPy paketini kullanarak 2 boyutlu bir veri nesnesi oluşturmak için listelerden oluşan bir listeyi kullanabiliriz.
+```python
+>>> hisse_fiyat = np.array([[3.57, 4.42, 5.25, 12.50, 29.30],
+                            [3.43, 4.69, 5.00, 11.00, 32.12],
+                            [3.15, 4.35, 4.95, 10.50, 29.00]])
+```
+
+Yukarıda yer alan iki boyutlu __hisse_fiyat__ dizini aynı zamanda her biri 5 veriden oluşan arka arkaya 3 dizi şeklinde de tarif edebiliriz.
+
+### NumPy Dizileri ile İşlemler
+
+Bir NumPy dizisinin boyutlarını görmek için __.shape()__ metodunu kullanabilirsiniz.
+
+```python
+>>> hisse_fiyat.shape
+
+(3, 5)
+```
+
+Şimdi de üç boyutlu bir dizi oluşturalım.
+
+```python
+>>> dizi = np.array([[[1, 2, 3, 4, 5],
+                      [6, 7, 8, 9, 10],
+                      [11, 12, 13, 14, 15]],
+                     [[1, 2, 3, 4, 5],
+                      [6, 7, 8, 9, 10],
+                      [11, 12, 13, 14, 15]]])
+
+>>> dizi.shape
+
+(2, 3, 5)
+```
+
+Üç boyutlu dizinin yüksekliğinin 2, satır sayısının 3 ve sütun sayısının 5 olduğu görülmektedir.
+
+Bir dizinin transpozunu almak için __.T__ metodu kullanılır.
+```python
+>>> hisse_fiyat.T
+
+array([[ 3.57,  3.43,  3.15],
+       [ 4.42,  4.69,  4.35],
+       [ 5.25,  5.  ,  4.95],
+       [12.5 , 11.  , 10.5 ],
+       [29.3 , 32.12, 29.  ]])
+```
+
+Bir NumPy dizisinin farklı eksenleri (yükseklik, satır, sütun) üzerindeki toplamları bulmak için __.sum()__ metodu kullanılır. Toplamı bulmak için istediğimiz eksen numarasını parantez içinde belirtilmelidir.
+İki boyutlu dizilerde sütun 0, satır ise 1 indeksi ile gösterilir. Üç boyutlu dizilerde ise yükseklik 0, sütun 1, satır ise 2 ile gösterilir.
+
+```python
+>>> dizi.sum(0)  # Yükseklik Toplamları
+
+array([[ 2,  4,  6,  8, 10],
+       [12, 14, 16, 18, 20],
+       [22, 24, 26, 28, 30]])
+
+>>> dizi.sum(1)  # Sütun Toplamları
+
+array([[18, 21, 24, 27, 30],
+       [18, 21, 24, 27, 30]])
+
+>>> dizi.sum(2) # Satır Toplamları
+
+array([[15, 40, 65],
+       [15, 40, 65]])
+```
+
+Aynı şekilde, herhangi bir eksen boyunca birikimli toplamları bulmak için __.cumsum()__ metodu kullanılır.
+
+```python
+>>> hisse_fiyat.cumsum(1)  # Satırların birikimli toplamları
+
+array([[ 3.57,  7.99, 13.24, 25.74, 55.04],
+       [ 3.43,  8.12, 13.12, 24.12, 56.24],
+       [ 3.15,  7.5 , 12.45, 22.95, 51.95]])
+```
+
+NumPy dizilerinde kullanılabilen diğer metodlar aşağıdaki tabloda açıklanmıştır.
+
+| Metod               | Açıklama                                                                                                                               |
+|---------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|      dizi.max()     | Verilen eksendeki maksimum değerler                                                                                                    |
+| dizi.argmax()       | Verilen eksendeki maksimum değerlerin sıra numarası                                                                                    |
+| dizi.min()          | Verilen eksendeki minimum değerler                                                                                                     |
+| dizi.argmin()       | Verilen eksendeki minimum değerlerin sıra numarası                                                                                     |
+| dizi.ptp()          | Verilen eksendeki maksimum ve minimum değerler arasındaki fark                                                                         |
+| dizi.clip(min, max) | Dizide yer alan min ve max arasındaki değerleri aynen, min'den <br>düşük değerleri min, max'tan büyük değerleri ise max olarak iletir. |
+| dizi.round(a)       | Dizide yer alan sayıları a ondalık basamağa kadar yuvarlar.                                                                            |
+| dizi.trace()        | Dizideki köşeggnler toplamını hesaplar.                                                                                                |
+| dizi.mean()         | Verilen eksen boyunca ortalama değerleri hesaplar.                                                                                     |
+| dizi.var()          | Verilen eksen boyunca varyans değerlerini hesaplar.                                                                                    |
+| dizi.std()          | Verilen eksen boyunca standart sapma değerlerini hesaplar.                                                                             |
+| dizi.prod()         | Verilen eksendeki sayıların çarpımını hesaplar.                                                                                        |
+| dizi.cumprod()      | Verilen eksendeki sayıların birikimli çarpımını hesaplar.                                                                              |
+| dizi.sort()         | Verilen eksendeki verilerin sıralanmış halini iletir.                                                                                  |
