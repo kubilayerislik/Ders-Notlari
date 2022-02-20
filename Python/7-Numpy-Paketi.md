@@ -103,6 +103,8 @@ NumPy paketini kullanarak 2 boyutlu bir veri nesnesi oluşturmak için listelerd
 
 Yukarıda yer alan iki boyutlu __hisse_fiyat__ dizini aynı zamanda her biri 5 veriden oluşan arka arkaya 3 dizi şeklinde de tarif edebiliriz.
 
+---
+
 ### NumPy Dizileri ile İşlemler
 
 Bir NumPy dizisinin boyutlarını görmek için __.shape()__ metodunu kullanabilirsiniz.
@@ -190,3 +192,243 @@ NumPy dizilerinde kullanılabilen diğer metodlar aşağıdaki tabloda açıklan
 | dizi.prod()         | Verilen eksendeki sayıların çarpımını hesaplar.                                                                                        |
 | dizi.cumprod()      | Verilen eksendeki sayıların birikimli çarpımını hesaplar.                                                                              |
 | dizi.sort()         | Verilen eksendeki verilerin sıralanmış halini iletir.                                                                                  |
+
+Bir listenin herhangi bir sırasındaki veriye nasıl ulaşacağımızı daha önce görmüştük. Örneğin listenin 3. sıradaki elemanın ne olduğunu görmek için liste[2] yazmamız yeterlidir. __Python'da liste numaralarının sıfırdan başladığı unutulmamalıdır.__ NumPy dizilerinde de aynı metodu kullanabiliriz. Sadece, dizi kaç boyutlu ise o kadar sayıda bilgiye ihtiyacımız olacaktır. Örneğin yukarıda yer alan hisse_fiyat dizisinin 2.satır ve 4. sırasındaki veriye ulaşmak için __hisse_fiyat[1][3]__ yazmamız yeterlidir. Burada önce __hisse_fiyat[1]__ yazarak ikinci sıradaki satırı seçiyoruz. Sonda ra bu satırdaki 4. elemanı seçmek için sonuna [3] ekliyoruz. Bunu yapmanın daha kolay yolu ise ayrı ayrı köşeli parantezler kullanmak yerine satır ve sütun indeksini tek bir köşeli parantez içinde virgülle ayırarak göstermektir.
+
+```python
+>>> hisse_fiyat[1][3]
+11.0
+
+>>> hisse_fiyat[1, 3]
+11.0
+```
+
+Peki tek bir veri yerine belirli bir satır ve sütunları seçmek için ne yazmamız gerekir? Örneğinm sadece birinci ve ikinci satırları seçmek istersem ne yazmalıyım.
+
+```python
+>>> hisse_fiyat[0:2, :]
+
+array([[ 3.57,  4.42,  5.25, 12.5 , 29.3 ],
+       [ 3.43,  4.69,  5.  , 11.  , 32.12]])
+```
+
+NumPy dizilerinde aritmetik işlemler yapmak mümkündür.
+```python
+>>> a = np.array([[3, 4, 7, 4],
+                  [2, 9, 4, 2],
+                  [1, 5, 8, 3]])
+
+>>> b = np.array([[4, 2, 8, 9],
+                  [6, 3, 6, 1],
+                  [3, 2, 4, 2]])
+
+>>> a + b
+array([[ 7,  6, 15, 13],
+       [ 8, 12, 10,  3],
+       [ 4,  7, 12,  5]])
+
+>>> a - b
+array([[-1,  2, -1, -5],
+       [-4,  6, -2,  1],
+       [-2,  3,  4,  1]])
+```
+İki NumPy dizisi arasında matris çarpımı uygulamak için __np.matmul()__ metodu uygulanabilir.
+
+```python
+>>> hisse_fiyat[0:2, :]
+
+array([[ 3.57,  4.42,  5.25, 12.5 , 29.3 ],
+       [ 3.43,  4.69,  5.  , 11.  , 32.12]])
+```
+
+NumPy dizilerinde aritmetik işlemler yapmak mümkündür.
+```python
+>>> a = array([[3, 4, 7, 4],
+               [2, 9, 4, 2],
+               [1, 5, 8, 3]])
+
+>>> b = b.T
+        
+>>> np.matmul(a, b)
+array([[112,  76,  53],
+       [ 76,  65,  44],
+       [105,  72,  51]])
+```
+NumPy metodlarını uygulamanın bir başka yolu da isteediğimiz metodu __np.metod_ismi()__ şeklinde kullanmaktır. Örneğin, bir dizinin istediğimiz satır veya sütununun toplamını bulmak için __np.sum(dizi[:,1])__ metodunu uygulayabiliriz.
+
+```python
+>>> np.sum(a[:, 1]) # İkinci sütundaki sayıların toplamı
+18
+
+np.mean(a[:,2]) # Üçüncü sütundaki sayıların ortalaması
+6.333333333333333
+
+>>> dizi = np.array([[2.34, 3.76],
+                     [4.23, 5.76],
+                     [1.18, 9.32],
+                     [7.43, 12.25],
+                     [3.14, 2.78],
+                     [11.45, 14.32],
+                     [5.78, 4.43],
+                     [8.87, 9.43]])
+
+>>> np.std(dizi[:,0]) # Birinci sütun standart sapma
+3.285786625756456
+```
+
+NumPy dizilerine döngü uygularken dikkatli olunması gerekir. Şimdi yukarıda gördüğümüz iki boyutlu __hisse_fiyat__ dizisini ele alalım. Önce bu diziye bir for döngüsü uyguladığımızda ne olduğuna bakalım.
+
+```python
+>>> hisse_fiyat = np.array([[3.57, 4.42, 5.25, 12.50, 29.30],
+                            [3.43, 4.69, 5.00, 11.00, 32.12],
+                            [3.15, 4.35, 4.95, 10.50, 29.00]])
+
+>>> for i in hisse_fiyat:
+      print(i)
+
+[ 3.57  4.42  5.25 12.5  29.3 ]
+[ 3.43  4.69  5.   11.   32.12]
+[ 3.15  4.35  4.95 10.5  29.  ]
+
+```
+Döngüyü doğrudan doğruya NumPy dizisine uyguladığımızda dizi içindeki listeleri ya da diğer bir deyişle satırları görüyoruz. Ancak biz tek tek elemanlara erişmek istiyoruz diyelim. Bunun için yine NumPy paketindeki __.nditer()__ metodunu kullanmamız gerekmektedir.
+
+```python
+>>> for i in np.nditer(hisse_fiyat):
+       print(i)
+
+3.57
+4.42
+5.25
+12.5
+29.3
+3.43
+4.69
+5.0
+11.0
+32.12
+3.15
+4.35
+4.95
+10.5
+29.0
+```
+
+---
+### Kullanışlı NumPy Metodları
+
+Önceki bölümde ne çok kullanılan NumPy dizilerine örnekler vermiştik. Bu bölümde işlemlerinizde kullanabileceğiniz ve zaman kazandıracak ilave NumPy fonksiyon ve metod örnekleri yer almaktadır. __Burada aktarılanlar dışında çok fazla sayıda NumPy metodu bulunduğunu unutmayın.__ 
+
+__np.amax():__ Bir NumPy dizisinde istenen eksendeki maksimum değerleri iletir.
+
+```python
+>>> x = np.random.uniform(low=1, high=50, size=16).reshape(4, 4) # Minimum 1 ve maksimum 50 değerini alabilecek uniform dağılıma sahip 16 adet sayı üretir ve bunları 4x4 formatına getirir.
+>>> x
+
+
+array([[24.21822172, 33.94938125, 40.75814109, 14.95639957],
+       [19.46434823, 15.6271811 , 46.876862  , 29.69476613],
+       [42.94929529, 37.06352804, 40.96284712, 34.02980614],
+       [22.49084048, 26.21055894, 42.99748819, 21.28104311]])
+
+>>> np.amax(x, axis=0) # Her sütundaki maksimum değer
+array([42.94929529, 37.06352804, 46.876862  , 34.02980614])
+
+>>> np.amax(x, axis=1) # Her satırdaki maksimum değer
+array([40.75814109, 46.876862  , 42.94929529, 42.99748819])
+```
+
+__np.amin():__ Bir NumPy dizisinde istenen eksendeki minimum değerleri iletir..
+
+__np.argsort():__ Bir dizinin elemanların, dizi küçükten büyüğe sıralandığında kaçıncı sırada olacağını belirtir.
+
+```python
+>>> x = np.array([4, 2, 1, 6, 9, 3, 15, 11, 10, 7])
+>>> x.argsort()
+
+array([2, 1, 5, 0, 3, 9, 4, 8, 7, 6], dtype=int64)
+```
+
+__np.concatenate():__ İki NumPy dizisini eksenlerden birleştirmek için kullanılır. Örneğin iki boyutlu (matris) iki diziyi birleştirirken, axis = 0 seçilirse satırları yani alt alta, axis = 1 seçilirse sütunlarını yani yan yana birleştirme işlemi gerçekleştirilir. 
+
+```python
+>>> x = np.arange(1, 7).reshape(3, 2)
+>>> y = np.arange(7, 13).reshape(3, 2)
+
+>>> x
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+
+>>> y
+array([[ 7,  8],
+       [ 9, 10],
+       [11, 12]])
+
+>>> np.concatenate([x,y], axis = 0)
+array([[ 1,  2],
+       [ 3,  4],
+       [ 5,  6],
+       [ 7,  8],
+       [ 9, 10],
+       [11, 12]])
+
+>>> np.concatenate([x,y], axis = 1)
+array([[ 1,  2,  7,  8],
+       [ 3,  4,  9, 10],
+       [ 5,  6, 11, 12]])
+```
+
+__np.intersect1d():__ İki veya daha fazla NumPy dizisindeki ortak elemanları seçer.
+```python
+>>> x = np.array([1, 3, 5, 7, 9, 11, 13, 15])
+>>> y = np.array([3, 6, 9, 11, 13])
+
+>>> np.intersect1d(x,y)
+array([ 3,  9, 11, 13])
+```
+
+__np.setdiff1d():__ bir dizide olup ikinci dizide olmayan elemanları seçmek için kullanılır.
+```python
+>>> x = np.array([1, 3, 5, 7, 9, 11, 13, 15])
+>>> y = np.array([3, 6, 9, 11, 13])
+
+>>> np.setdiff1d(x,y)
+array([ 1,  5,  7, 15])
+```
+
+__np.isin():__ Aranan elemanların bir lite veya dizide olup olmadığını gösterir.
+```python
+>>> x = [1, 3, 5, 7]
+>>> dizi  = [3, 4, 5, 8, 9, 10]
+
+>>> np.isin(x, dizi)
+array([False,  True,  True, False])
+```
+---
+
+__np.isnan():__ Bir dizideki verilerin NaN olup olmadığını görmek için kullanılır.
+
+__np.ones():__ Birden meydana gelen istenen boyutta NumPy dizisi oluşturur.
+
+__np.repeat():__ Tekrar eden elemanalrdan meydana gelen bir dizi oluışturur.
+
+__np.reshape():__ Bir NumPy dizisinin boyutlarını yeniden belirlemek için kullanılır.
+
+__np.unique():__ Bir dizideki tekil değerleri gösterir. 
+
+__np.where():__ Bir NumPy dizisinde istenen şartları sağlayan elemanları seçer.
+```python
+>>> dizi = np.arange(0,101)
+>>> np.where(dizi % 10 == 0)
+
+(array([  0,  10,  20,  30,  40,  50,  60,  70,  80,  90, 100], dtype=int64),)
+```
+
+---
+
+#### Alıştırmalar
+
+1. 1'den 1000'e kadar sayıların olduğu bir NumPy dizisi oluşturun ve bu dizide 18 ile tam bölünen sayıları seçen sorguyu yazınız.
+2. Bir NumPy dizisindeki en büyük 3 elemanı seçecek tek satırlık bir kod yazınız.
+   
