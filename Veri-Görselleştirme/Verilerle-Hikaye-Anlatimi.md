@@ -118,4 +118,146 @@ __Büyük Fikir:__ Pilot yaz programı şu alanlarda başarılı oldu ve bu baş
 ---
 
  #### 1.Bölüm Özeti
- Açıklayıcı analiz söz konusun olduğunda, içerik oluşturmaya başlamadan önce tam olarak kiminle iletişim kurmak istediğinizi ve ne iletmek istediğinizi tam olarak ifade edebilmek, yinelemeleri azaltır ve kurduğunuz iletişimin amaçlanan amacı karşıladığından emin olmanıza yardımcı olur. 3 dakikalık hikaye ve büyük fikir gibi kavramları anlamak ve kullanmak hikayenizi net ve özlü bir şekilde anlatmanıza ve istenen akışı belirlemenize olanak tanır. İletişimi kurmadan önce duraklatmak, sizi yavaşlatan bir adım gibi görünebilir, ancak içerik oluşturmaya başlamadan önce ne yapmak istediğine dair sağlam bir anlayışa sahip olmanıza yardımcı olur, bu da yolda size zaman kazandıracaktır. 
+ Açıklayıcı analiz söz konusun olduğunda, içerik oluşturmaya başlamadan önce tam olarak kiminle iletişim kurmak istediğinizi ve ne iletmek istediğinizi tam olarak ifade edebilmek, yinelemeleri azaltır ve kurduğunuz iletişimin amaçlanan amacı karşıladığından emin olmanıza yardımcı olur. 3 dakikalık hikaye ve büyük fikir gibi kavramları anlamak ve kullanmak hikayenizi net ve özlü bir şekilde anlatmanıza ve istenen akışı belirlemenize olanak tanır. İletişimi kurmadan önce duraklatmak, sizi yavaşlatan bir adım gibi görünebilir, ancak içerik oluşturmaya başlamadan önce ne yapmak istediğine dair sağlam bir anlayışa sahip olmanıza yardımcı olur, bu da yolda size zaman kazandıracaktır.
+
+## Bölüm 2: Etkili Görsel Seçimi
+
+Bir görsel hazırlarken birçok farklı grafik ve görsel bilgi türleri vardır, ancak sıklıkla kullanılan grafik miktarı oldukça azdır. Yapılan bir çok çalışma ve proje incelendiğinde sadece bir düzine farklı görselin kullanıldığı tespit edilmiştir.
+
+| ![space-1.jpg](https://i.vgy.me/fK6OcG.png) |
+|:--:|
+| *Şekil 3* |
+
+| ![space-1.jpg](https://i.vgy.me/7OUCNl.png) |
+|:--:|
+| *Şekil 4* |
+
+### Basit Metin
+
+Hazırlayacağınız raporda veya sunumda paylaşacağınız bir veya iki istatistiğiniz bulunuyorsa basit metin ile iletişim kurmak doğru bir yol olabilir. Yalnızca sayıyı kullanmayı (mümkün olduğunca belirgin hale getirmeyi) ve amacınızı net bir şekilde ifade etmek için birkaç destekleyici kelimeyi düşünün. Elinizde az miktarda istatistik varsa, bir tabloya veyta grafiğe bir veya sadece birkaç sayı koymak, vurgulamak istediğiniz mesajın cazibesinin kaybolmasına neden olabilir. İletmek istediğiniz bir veya iki istatistiğiniz olduğunda, sayıları kullanmayı düşünmek vereceğiniz bilginin daha anlaşılır olmasını sağlar.
+
+Bu kavramı açıklamak için aşağıdaki örneği ele alalım. Ev hanımı olan annelerle ilgili Nisan 2014'ye yapılmış bir çalışmaya ait sonuçlar aşağıda verilmiştir.
+
+| ![space-1.jpg](https://i.vgy.me/OYZLHj.png ) |
+|:--:|
+| *Şekil 5* |
+
+Bazı istatistiklere sahip olmanız, bir grafiğe ihtiyacınız olduğu anlamına gelmez. Yukarıdaki örnekte toplam iki sayı içinm oldukça fazla metin ve boşluk kullanılmıtır. Grafik, sayıların yorumlkanmasına yardımcı olmaktan ziyade daha da karmaşık gözükmektedir.
+
+Bu durumda basit bir cümle yeterli olacaktır. 1970'te ki %41'e kıyasla, 2012'de çocukların %20'si geleneksel ev hanımı olan bir anneye sahiptir.
+
+Alternatif olarak, bir sunumda veya raporda görseliniz aşağıdaki gibi görünebilir.
+
+| ![space-1.jpg](https://i.vgy.me/UmHfe0.png) |
+|:--:|
+| *Şekil 6* |
+
+Bu örneğin yerine istatisstiği iki yıl arasındaki yüzde değişimi açısından da yeniden incelemek mümkündür. "Geleneksel ev hanımı anneye sahip çocukların sayısı 1970 ile 2012 arasında %50'den fazla bir oranda azalmıştır." Elinizde bulunan birden fazla istediği birleştirdiğinizde örneğin %40 ve %20 yerine %50 azalmıştır ifadesini kullanırken anlamın kaybolup kaybolmadığına dikkat edilmelidir.
+
+__İletmek istediğiniz bir veya iki istatistik varsa: doğrudan sayıları kullanın.__
+
+Göstermek istediğinizden daha fazla veriye sahip olduğunuzda genellikle bir tablo veya grafik kullanmak daha mantıklı olacaktır.
+
+---
+
+### Tablolar
+
+Tablolar sözlü sistemimiz ile etkileşime girer, bu da onları okuduğumuz anlamına gelir. Satır ve sütun değerlerini okuyarak karşılaştırmalar yapmak oldukça kolaydır. Birden çok farklı ölçü birimi iletmeniz gerekiyorsa tablo kullanmak oldukça mantıklıdır.
+
+> ##### Canlı Sunumlardaki Tablolar
+>
+> Canlı bir sunumda tablo kullanmak nadiren iyi bir fikirdir. Anlatmak istediğiniz noktayı anlatmak için tabloyu kitlenize okumanız gerekmektedir. Bir sunumda tablo kullanırken mutlaka öncesinde ilgilenilen parçayı veya parçaları daha iyi göstermek ve görselleştirmek için daha iyi bir yolu olmalıdır. Bir görsel grafik hazırlayıp sonrasında grafikte kullanılan verileri ekte tablo olarak vermenin hedef kitlenizin ihtiyaçlarını karşılayıp karşılamadığın düşünün.
+
+Bir tablo oluştururken arka planın verilerin önüne geçmesine izin vermeyin, dikkat çekmesi için çok kalın kenarlıklar ve gölgelendirme kullanılmamalı, bunun yerine tablonun öğelerini ayırmak için açık renk kenarlıklar veya beyaz boşluk kullanılması daha doğru olacaktır.
+
+Aşağıdaki tablolara göz atın. İkinci ve üçüncü tablolarda yapısal bileşenlerin daha fazla öne çıktığı fark edilmelidir (Açık renkli, minimal kenarlıklar)
+
+| ![space-1.jpg](https://i.vgy.me/dql6K4.png) |
+|:--:|
+| *Şekil 7* |
+
+Tablonuzun okunabilirliğini artırmak için kenarlıklar kullanılmalıdır. Kenarlıkları gri yaparak veya tamamen ortadan kaldırarak veriler ön plana çıkarılmalıdır. Veriler, sınırlar değil, öne çıkanlar olmalıdır.
+
+---
+
+### Isı Haritaları
+
+Bir tabloya ekleyebileceğiniz ayrıntıları karıştırırken aynı zamanda görsel ipuçlarından da faydalanmak için ısı haritaları kullanılabilir.Isı haritası, verileri tablo biçiminde görselleştirmenin bir yoludur, burada sayıların yerine veya sayılarak ek olarak sayıların göreli büyüklüğünü ileten renkli hücrelerden yararlanılabilir.
+
+| ![space-1.jpg](https://i.vgy.me/6YsAka.png) |
+|:--:|
+| *Şekil 8* |
+
+Tablolarda neyin daha yüksek neyin daha düşük olduğunu bulmak için satır ve sütun olarak incelemeniz gerekmektedir. Bu zihinsel işlevi azaltmak için, görsel ipuçları sağlamak için renk doygunluğu kullanılabilir, gözlerimizin ve beynimizin potansiyel ilgi noktalarını daha hızlı hedeflemesine yardımcı olabilir. Sağdaki "Isı haritası" başlıklı tabloda mavinin renk doygunluğu ne kadar yüksekse sayı da o kadar yüksek anlamındadır. Bu buradaki en yüksek ve en düşük değerleri bulmak tabloda bulmaktan daha kolaydır.
+
+Grafik uygulamalarında ısı haritası şeklinde biçimlendirmek oldukça kolaydır. Bu, okuyucunun verileri yorumlamasına yardımcı olacak bir açıklama eklemek için her zaman kullandığınızdan emin olun.
+
+---
+
+### Grafikler
+
+Tablolar sözlü sistem ile iletişime girerken, grafikler bilgi işlemede daha hızlı olan görsel sistem ile iletişime girmektektir. Bu, iyi tasarlanmış bir grafiğin tipik olarak bilgileri iyi tasarlanmış bir tablodan daha hızlı ileteceği anlamına gelmektedir. Çok sayıda grafik türü bulunmaktadır ancak günlük hayatta bunlardan sadece bir kaç tanesi kullanılmaktadır.
+
+Günlük hayatta sık kullanılan grafikler 4'e ayrılmaktadır: Saçılım (Nokta), çizgi, çubuk ve alan grafikleridir. Bu grafiklerin alt türleri de sıklıkla kullanılmaktadır.
+
+#### Saçılım Grafiği
+
+ Dağılım grafikleri, iki değişken arasındaki ilişkiyi göstermek için yaralı olabilir, çünkü bunlar, verileri aynı anda yatay bir x ekseni ve dikey bir y ekseni üzerinde kodlamamıza ve ne tür bir ilişkinin olup olmadığını görmemizi sağlar. Bilimsel alanlarda daha sık kullanılmaktadır (bundan dolayı bu tarz grafiklere aşina olmayan kişiler için karmaşık olarak gözükebilir). Nadiren de olsa iş dünyasında da dağılım grafiklerinin kullanım örnekleri bulunmaktadır.
+
+Örneğin, bir otobüs filosunu yönettiğinizi ve kat edilen kilometre ile kilometre başına maliyet arasındaki ilişkiyi anlamak istendiği varsayılsın. Dağılım grafiği aşağıdakine benzer bir şekilde görünebilir.
+
+| ![space-1.jpg](https://i.vgy.me/qrGQ7B.png) |
+|:--:|
+| *Şekil 9* |
+
+Km başına maliyetin ortalamanın üzerinde olduğu durumlara odaklanmak istiyorsak, gözümüzü oraya daha hızlı çekmek için tasarlanmış biraz değiştirilmiş bir dağıolım grafiği aşağıdaki gibi kullanılabilir.
+
+| ![space-1.jpg](https://i.vgy.me/hLUqBP.png) |
+|:--:|
+| *Şekil 10* |
+
+Gözlenen örnek için yaklaşık 1700km'den daha az veya yaklaşık 3300 kmden fazla gidildiğinde km başına maliyetin ortalamadan daha yüksek olduğu gibi gözlemler yapmak için yukarıdaki görselin kullanılması daha kolaydır.
+
+#### Çizgi Grafiği
+
+Çizgi grafikler yaygın olarak sürekli verileri çizmek için kullanılır. Noktalar fiziksel olarak çizgi üzerinden birbirine bağlı olduğudan kategorik veriler için anlamlı olmayabilecek noktalar arasındak bir ilişki oluşturmuş olur ve bu da istenmeyen bir durumdur. Genellikle, günler, aylar, çeyrekler veya yıllar bulunan verilerde çizgi grafik kullanılması uygundur.
+
+Çizgi grafikleri de kendi içinde alt grafiklere ayrılmaktadır. Ancak bunlardan iki tanesi sıklıkla kullanılır, bunlardan birincisi standart çizgi grafiği diğer ise eğim grafiğidir.
+
+##### Standart Çizgi Grafiği
+
+Standart çizgi grafiği, aşağıda gösterildiği gibi tek bir veri dizisi için veya birden çok veri dizisi için kullanılabilir.
+
+| ![space-1.jpg](https://i.vgy.me/3KirLk.png) |
+|:--:|
+| *Şekil 11* |
+
+Bir çizgi grafiğinde yatay x ekseni üzerinde zaman değişkenini çizerken, çizilen verilerin tutarlı aralıklarla olması gerektiğini unutmayın. Örneğin 1900'den başlayan bir zaman skalasında 1910, 1920, 1930 vb ve 2010'dan sonra da 2011, 2012, 2013, 2014 olarak eşit olmayan zaman dilimleri şeklinde kullanılmamalıdır. Bu durumda, on yıllık puanlar ile yıllık puanlar arasındaki mesafenin aynı göründüğü anlamına gelmektedir. Bu, verileri göstermenin yanıltıcı bir yoludur.
+
+> __Bir Çizgi Grafikte Bir Aralık İçindeki Ortalamayı Gösterme__
+>
+>Bazı durumlarda, çizgi grafiğindeki çizgi, bir thaminin ortalama veya nokta tahmini gibi bir özet istatistiği temsil edebilir. Ayrıca aralık hakkında bir fikir vermek istiyorsanız, bu aralığı görselleştirerek bunu doğrudan grafik üzerinde yapabilirsiniz. Örneğin aşağıdaki grafikte, 13 aylık bir süre boyunca bir havalimanını için pasaport kontrolünde minimum, maksimum ve ortalama bekleme süreleri gösterilmektedir.
+
+| ![space-1.jpg](https://i.vgy.me/8zd6fj.png) |
+|:--:|
+| *Şekil 12* |
+
+##### Eğim Grafiği
+
+Eğim grafikleri, iki zaman dilimi veya karşılaştırma noktası olduğunda ve iki veri noktası arasındaki çeşitli kategoriler arasında göreli artışları ve azalmaları veya farklılıkları hızlı bir şekilde göstermek istendiğinde kullanılmaktadır.
+
+Eğim grafiklerinin değerini ve kullanım durumunu açıklamanın en iyi yolu belirli bir örnektir. Yakın tarihli bir çalışan geri bildirim anketinden verileri analiz ettiğinizi ve ilettiğinizi hayal edin. 2014'ten 2015'e anket kategorilerindeki nispi değişimi göstermek için aşağıdakine benzer bir eğim grafiği kullanılabilir.
+
+Eğim grafikleri birçok bilgi içerir. Mutlak değerlere (noktalara) ek olarak, onları birbirine bağlayan çizgiler, ne yaptıklarını veya tam olarak ne olduğunu açıklamak zorunda kalmadan, değişim oranındaki (eğim veya yön yoluyla) görsel artış ve azalma sağlar.
+
+| ![space-1.jpg](https://i.vgy.me/PeQ9Qd.png) |
+|:--:|
+| *Şekil 13* |
+
+Bir eğim grafiğinin sizin özel durumunuzda işe yarayıp yaramayacağı, verinin kendisine bağlıdır. Çizgilerin çoğu örtüşüyorsa, eğim grafiği anlamlı sonuç vermeyebilir, ancak bazı durumlarda yine de tek bir seriyi vurgulayabilirsiniz. Örneğin bir önceki örneğe göre zamanla azalan tek kategoriye dikkat çekebilirsiniz.
+
+| ![space-1.jpg](https://i.vgy.me/CIZSg4.png) |
+|:--:|
+| *Şekil 14* |
+
+Şekil 14'te "Kariyer Gelişimi"ndeki düşüşe hemen dikkatimiz çekilirken, verilerin geri kalanı dikkat çekmek için rekabet etmeden ilişkiyi korur.
