@@ -261,3 +261,106 @@ Bir eğim grafiğinin sizin özel durumunuzda işe yarayıp yaramayacağı, veri
 | *Şekil 14* |
 
 Şekil 14'te "Kariyer Gelişimi"ndeki düşüşe hemen dikkatimiz çekilirken, verilerin geri kalanı dikkat çekmek için rekabet etmeden ilişkiyi korur.
+
+##### Çubuk Grafiği
+
+Bazen çok sık kullanıldıkları için çubuk grafik kullanımından kaçınılır ancak bu hatalı bir düşüncedir. Hedef kitleniz için okuması kolay olduğundan çubuk grafiklerinden yararlanılmalıdır. Hedef kitleniz, grafiği nasıl okuyacaklarını anlamaya çalışmak için beyin güçlerini kullanmak yerine, görselden hangi bilgileri alacaklarını bulmaya harcarlar.
+
+Çubuk grafiklerin gözler tarafından okunması kolaydır. Gözleriniz çubukların uç noktalarını karşılaştırır, böylece hangi kategorinin en büyük, hangisinin en küçük olduğunu ve ayrıca kategoriler arasındaki artan farkı hızlı bir şekilde görmek kolaydır.
+
+Gözleriniz çubukların göreli uç noklarını karşılaştırması nedeniyle, çubuk grafiklerin her zaman sıfır taban çizgisine sahip olması önemlidir (x ekseninin y eksenini kestiği noktanın sıfır olması), aksi taktirde yanlış bir görsel karşılaştırmaya neden olabilir.
+
+Bu örnek için 2012 sonbaharında olduğunuzu düşünün. Bush'un vergi indirimleri sona ererse ne olacağı merak edilmektedir. Sol tarafta şuanki en yüksek veri oranı %35, sağ tarafta 1 Ocak itibariyle %39,6 olacaktır.
+
+Soldaki grafiğe baktığınızda, vergi indirimlerinin potansiyel süresinin dolması size nasıl hissettiriyor? Belki de büyük artıştan endişe duyuyorsunuz.
+
+| ![space-1.jpg](https://i.vgy.me/pXXEHU.png) |
+|:--:|
+| *Şekil 15* |
+
+
+Dikey eksende gösterilenm alt sayının sıfır değil, 34 olduğuna dikkat edin. Bu teorik olarak çubukların sayfanın altında devam etmesi gerektiği anlamına gelir. Aslında sol taraftaki görsel %460 oranında büyütülmüş grafiğin alt kısmının kesilmiş hali olarak düşünülebilir. Sağ tarafta ise tabanı sıfır olan ve %13 oranında büyütülmüş bir grafik çizilmiştir.
+
+__İki şekil karşılaştırıldığında size aynı hissi hissettiriyor mu? Sizce hangisi daha doğru bir bilgi vermektedir?__
+
+Solda büyük bir artış gibi görünen şey, grafik uygun şekilde çizildiğinde önemli ölçüde azalmaktadır. Belide vergi artışı o kadar endişe verici değil ya da en azından başlangıçta tasvir edildiği kadar şiddetli değil. Gözlerimizin çubukların göreceli uç noktalarını karşılaştırma şekli nedeniyle, doğru bir karşılaştırma yapabilemk için tüm çubuğun incelenmesi önemlidir.
+
+Bu görselin yeniden yapımında da birkaç tasarım değişikliği yapılmıştır. Orijinal görselin sağ tarafına yerleştirilen y ekseni etiketleri sola taşınmıştır (böylece gerçek verilere ulaşmadanm önce verileri nasıl yorumlayacağımızı görürüz). Başlangıçta çubukların dışında olan veri etiketleri, dağınıklığı azaltmak için çubuğun içine yerleştirilmiştir.
+
+> __Grafik Ekseni ve Veri Etiketleri__
+>
+> Verilerin grafiğini çizerken, ortak bir karar olarak eksen etiketlerini korumak veya ekseni ortadan kaldırmak ve bunun yerine veri noklarını doğrudan etiketlemektir. Bu kararı verirken, gereken özgünlük düzeyini göz önünde bulundurmanız gerekmektedir. Hedef kitlenizin büyük resim trendlerine odaklanmasını istiyorsanız, ekseni korumayı ancak onu gri yaparak vurgulamayı azaltmayı düşünün. Belirli sayısal değerler önemliyse,i veri noktalarını doğrudan etiketlemek daha iyi olabilir. Bu son durumda gereksiz bilgilerin dahil edilmesini önlemek için ekseni atlamak görseli daha anlaşılır yapabilmektedir. Her zaman hedef kitlenizin görseli nasıl kullanmasını istediğinizi düşünün ve buna göre oluşturun.
+
+__Not: Sıfır taban çizgisi çubuk grafikleri için önemlidir. Çizgi grafikte odak uzaydaki göreli konumda olduğundan sıfır olmayan bir taban çizgisi kullanılabilir.__
+
+Çubukların uzunluklarını düşünürken, çubukların genişliğine de zaman ayrılmalıdır. Burada kesin ve kesin bir kural yoktur ancak genel olarak çubuklar, çubuklar arasındaki boşluktan geniş olmalıdır. Çubuklar yerine boşluklar çok olduğunda hedef kitleniz çubuklardan ziyade boşlukları kıyaslamaya başlar.
+
+| ![space-1.jpg](https://i.vgy.me/XJduBQ.png) |
+|:--:|
+| *Şekil 16* |
+
+Çubuk grafikleri de kendi aralarında sınıflanmaktadır, bunlardan dikey çubuk grafiği, yığılımlı dikey çubuk grafiği, şelale grafiği, yatay çubuk grafiği ve yığılımlı yatay çubuk grafiğidir.
+
+###### Dikey Çubuk Grafiği
+
+Çizgi grafikler gibi dikey çubuk grafikleri de tek seri, iki seri ve birden çok seri olabilir. Dahja fazla veri dizisi ekledikçe, her seferinde bir tanesine odaklanmanın ve içgörü elde etmenin daha zor hale geldiği unutulmamalıdır.
+
+| ![space-1.jpg](https://i.vgy.me/iff6R0.png) |
+|:--:|
+| *Şekil 17* |
+
+---
+
+###### Yığılımlı Çubuk Grafiği
+
+Yığılımlı dikey çubuk grafikler için kullanım durumları daha sınırlıdır. Kategoriler arasındaki toplamları karşılaştırmamıza ve ayrıca belirli bir kategorideki alt billeşen parçalarını görmenize imkan sağlamaktadır. Bununla birlikte, özellikle çoğu grafik uygulamasındaki çeşitli renk şemaları göz önüne alındığında görsel olarak bunaltıcı olabilir. Yorumlanması oldukça zordur çünkü alt birleşenleri karşılaştırmak için yeterli bilgi bulunmaktadır.
+
+| ![space-1.jpg](https://i.vgy.me/40zbul.png) |
+|:--:|
+| *Şekil 18* |
+
+Yığılımlı dikey çubuk grafik, mutlak sayılar veya sütunun toplamı 100'e eşit şekilde düzenlenebillir. Hangisini seçeceğiniz, hedef kitlenize iletmek istediğiniz bilgi ile alakalıdır.
+
+###### Şelale Grafiği
+
+Şelale grafiği, her seferinde bir tanesine odaklanmak için yığılımlı çubuk grafiğinin parçalarını ayırmak veya bir başlangıç noktası, artışlar, azalmalar ve sonuçta ortaya çıkan bitiş noktasını göstermek için kullanılabilir.
+
+Şelale grafiğinin kullanım durumunu göstermenin en iyi yolu belirli bir örnektir. Bir İK iş ortağı olduğunuzu ve desteklediğiniz müşteri grubu için çalışan sayısının geçen yıl içinde nasıl değiştiğini anlamak ve iletmek istediğinizi hayal edin.
+
+Bir şelale grafiği aşağıdaki gibi gözükecektir.
+
+| ![space-1.jpg](https://i.vgy.me/0S76tP.png) |
+|:--:|
+| *Şekil 19* |
+
+Sol tarafta, yılın başında verilen ekip çalışan sayısının ne olduğunu görüyoruz. Sağa doğru hareket ettikçe, ilk olarak gelen personeller ile karşılaşıyoruz: yeni işe alınanlar ve organizasyonun diğer bölümlerinden ekibe transfer edilen çalışanlar. Bunu gidenler bölümü takip etmektedir: ekipten organizasyonun diğer bölümlerine transfer olanlar ve işten ayrılanlar. Son sütun, yıl başındaki personel sayısına yapılan eklemeler ve kesinmtiler uygulandıktan sonra, yıl sonundaki çalışan sayısını temsil eder.
+
+---
+
+###### Yatay Çubuk Grafiği
+
+Kategorik veriler için dikey ya da yatay çubuk grafiği arasında yatay çubuk grafiği tercih edilmelidir. Çünkü okuması daha kolaydır. Yatay çubuk grafiği, çoğu izleyicinin metinleri okuduğu gibi soldan sağa doğru yazıldığından ve grafiğinizi hedef kitleniz için daha okunaklı hale getirdiğinden dolayı kategori isimleriniz uzunsa özellikle daha yararlıdır. Ayrıca tipik olarak bilgi işleme şeklimiz nedeniyle (ekranlarda ve sayfalarda sol üstten başlayarak sayfa boyunca gözlerle z hareketi yapılarak) yatay çubuk grafiğinin yapısı, gerçek verilerden önce kategori adlarına dikkat eder. Bu sayede verilere ulaştığımız zaman neyi temsil ettiğini zaten biliyor oluyoruz.
+
+| ![space-1.jpg](https://i.vgy.me/og51Jm.png) |
+|:--:|
+| *Şekil 20* |
+
+---
+
+> __Kategorilerin Mantıksal Sıralanması__
+>
+> Kategorik verileri gösteren herhangi bir grafik tasarlarken, kategorilerinizin nasıl sıralandığı konusunda dikkatli olunmalıdır. Kategorilerinizde doğal bir sıralama varsa, bundan yararlanmak mantıklı olabilir. Örneğin, kategorileriniz yaş gruplarıysa (0 - 10 Yaş, 11 - 20 yaş vb.) kategorileri sayısal sırada tutmak önemlidir. Bununla birlikte, kategorilerinizden yararlanmanın mantıklı olduğu bir sıralama yoksa, verilerinizin hangi sırada olmasının daha anlamlı olacağını düşünün. Burda dikkatli olunmalıdır, doğru bir sıralama hedef kitleniz için bir yapı sağlamak ve yorumlama sürecini kolaylaştırmak anlamına gelebilir.
+>
+> Hedef kitleniz genellikle görselinize sol üstten başlayarak ve "z" şeklinde zikzak çizerek bakar. Bu önce grafiğinizin üst kısmıyla karşılaşacağı anlamına gelir. En büyük kategori en önemliyse, onu ilk sıraya koymayı ve diğer kategorileri azalan sayısal sıraya göre sıralamak daha doğru olabilir, veya en küçüğü en önemliyse, bunu en üste koyup artan değerlere göre sıralayın.
+
+---
+
+###### Yığılımlı Yatay Çubuk Grafiği
+
+Yığılımlı dikey çubuk grafiğine benzer şekilde, yığılımlı yatay çubuk grafikleri de farklı kategorilerdeki toplamları göstermek için kullanılabilir, ancak aynı zamanda alt bileşen parçaları hakkında da fikir verir. Mutlak değeri veya toplamları %100 gösterecek şekilde yapılandırılabilir.
+
+İkinci yaklaşım yani %100 oran olarak yığılımlı grafiği kullanmak oldukça mantıklıdır. Çünkü hem solda hem de sağda tutarlı bir taban çizgisi elde edebilirsiniz ve en soldaki parçaların da kolayça yorumlanmasına imkan tanır. Örneğin Likert gibi ölçeklerde (genellikle Kesinlikle Katılmıyorum ile Kesinlikle Katılıyorum arasında değişen anketlerde yaygın olarak kullanılan ölçek) toplanan verilerin görselleştirilmesinde kullanılabilir.
+
+| ![space-1.jpg](https://i.vgy.me/qVD6ij.png) |
+|:--:|
+| *Şekil 21* |
