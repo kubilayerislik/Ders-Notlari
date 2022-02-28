@@ -1,4 +1,4 @@
-# NumPy Paketi,
+# NumPy Paketi
 
 Liste veri yapısı Python'a özel ve son derece kullanışlı bir veri türüdür. Listeleri kullanarak verileri bir arada saklayabilir ve bunlar üzerinde değişiklikler yapabilir, yeni veriler ekleyebilir ya da mevcut verileri çıkarabilirsiniz. Liste veri yapısında, veriler üzerinde analizler yapmak, matematiksel ya da istatistiksel işlemler uygulamak mümkün olmamaktadır. Halbuki R ya da Matlab gibi diğer dillerde bu tip işlemler kolaylıkla yapılabilmektedir.
 
@@ -248,7 +248,7 @@ NumPy dizilerinde aritmetik işlemler yapmak mümkündür.
                [1, 5, 8, 3]])
 
 >>> b = b.T
-        
+
 >>> np.matmul(a, b)
 array([[112,  76,  53],
        [ 76,  65,  44],
@@ -317,7 +317,7 @@ Döngüyü doğrudan doğruya NumPy dizisine uyguladığımızda dizi içindeki 
 ---
 ### Kullanışlı NumPy Metodları
 
-Önceki bölümde ne çok kullanılan NumPy dizilerine örnekler vermiştik. Bu bölümde işlemlerinizde kullanabileceğiniz ve zaman kazandıracak ilave NumPy fonksiyon ve metod örnekleri yer almaktadır. __Burada aktarılanlar dışında çok fazla sayıda NumPy metodu bulunduğunu unutmayın.__ 
+Önceki bölümde ne çok kullanılan NumPy dizilerine örnekler vermiştik. Bu bölümde işlemlerinizde kullanabileceğiniz ve zaman kazandıracak ilave NumPy fonksiyon ve metod örnekleri yer almaktadır. __Burada aktarılanlar dışında çok fazla sayıda NumPy metodu bulunduğunu unutmayın.__
 
 __np.amax():__ Bir NumPy dizisinde istenen eksendeki maksimum değerleri iletir.
 
@@ -349,7 +349,7 @@ __np.argsort():__ Bir dizinin elemanların, dizi küçükten büyüğe sıraland
 array([2, 1, 5, 0, 3, 9, 4, 8, 7, 6], dtype=int64)
 ```
 
-__np.concatenate():__ İki NumPy dizisini eksenlerden birleştirmek için kullanılır. Örneğin iki boyutlu (matris) iki diziyi birleştirirken, axis = 0 seçilirse satırları yani alt alta, axis = 1 seçilirse sütunlarını yani yan yana birleştirme işlemi gerçekleştirilir. 
+__np.concatenate():__ İki NumPy dizisini eksenlerden birleştirmek için kullanılır. Örneğin iki boyutlu (matris) iki diziyi birleştirirken, axis = 0 seçilirse satırları yani alt alta, axis = 1 seçilirse sütunlarını yani yan yana birleştirme işlemi gerçekleştirilir.
 
 ```python
 >>> x = np.arange(1, 7).reshape(3, 2)
@@ -415,7 +415,7 @@ __np.repeat():__ Tekrar eden elemanalrdan meydana gelen bir dizi oluışturur.
 
 __np.reshape():__ Bir NumPy dizisinin boyutlarını yeniden belirlemek için kullanılır.
 
-__np.unique():__ Bir dizideki tekil değerleri gösterir. 
+__np.unique():__ Bir dizideki tekil değerleri gösterir.
 
 __np.where():__ Bir NumPy dizisinde istenen şartları sağlayan elemanları seçer.
 ```python
@@ -431,4 +431,102 @@ __np.where():__ Bir NumPy dizisinde istenen şartları sağlayan elemanları se�
 
 1. 1'den 1000'e kadar sayıların olduğu bir NumPy dizisi oluşturun ve bu dizide 18 ile tam bölünen sayıları seçen sorguyu yazınız.
 2. Bir NumPy dizisindeki en büyük 3 elemanı seçecek tek satırlık bir kod yazınız.
-   
+
+#### Uygulamalı Örnekler
+
+__Yazı Tura Oyunu__
+
+1. Bir madeni para 10 kez atıldığında gelen sonuçları yazdıran kodu yazınız.
+
+<details><summary>Cevap</summary>
+<p>
+
+```python
+import numpy as np
+np.random.seed(22)
+sonuc = []
+
+for i in range(10):
+  para = np.random.randint(0,2)
+  if para == 0:
+    sonuc.append("Tura")
+  else:
+    sonuc.append("Yazı")
+
+print(sonuc)
+```
+
+</p>
+</details>
+
+2. Bir madeni para 10 kez atıldığında kaç kere yazı geldiğini gösteren kodu yazınız.
+
+<details><summary>Cevap</summary>
+<p>
+
+```python
+import numpy as np
+np.random.seed(22)
+yazi = [0]
+
+for i in range(10):
+  para = np.random.randint(0,2)
+  yazi.append(yazi[i] + para)
+
+print(yazi)
+```
+
+</p>
+</details>
+
+3. 2.numaralı örnek 1000 kere tekrarlandığında her bir tekrarda kaç kere yazı geldiğinin dağılımını gösteren kodu yazınız.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+final_yazi = []
+np.random.seed(22)
+for i in range(1000):
+  yazi = [0]
+  for i in range(10):
+    para = np.random.randint(0,2)
+    yazi.append(yazi[i] + para)
+  final_yazi.append(yazi[-1])
+
+plt.hist(final_yazi, bins=10)
+plt.show()
+```
+
+</p>
+</details>
+
+4. Yüksek katlı bir binanın zemin katındasınız. Bir zar attığınızda zar 2 ve 2'den küçükse bir kat aşağı iniyorsunuz. Zar 3 ve 5 arasında gelirse 1 basamak yukarı çıkıyorsunuz. Eğer zar 6 gelirse tekrar zar atıyorsunuz ve attığınız zar kadar yukarı çıkıyorsunuz. 100 kere zar atıldığındaki kat dağılımınızı listeleyen kodu yazınız.
+
+```python
+import numpy as np
+np.random.seed(22)
+
+kat_dagilimi = [0]
+
+for x in range(100) :
+    kat = kat_dagilimi[-1]
+
+    zar = np.random.randint(1,7)
+
+    if zar <= 2:
+        kat = kat - 1
+        kat = max(0, kat)
+    elif zar <= 5:
+        kat = kat + 1
+    else:
+        kat = kat + np.random.randint(1,7)
+
+    kat_dagilimi.append(kat)
+
+print(kat_dagilimi)
+```
+
+</p>
+</details>
