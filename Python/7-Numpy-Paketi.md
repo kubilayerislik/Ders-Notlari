@@ -481,6 +481,9 @@ print(yazi)
 
 3. 2.numaralı örnek 1000 kere tekrarlandığında her bir tekrarda kaç kere yazı geldiğinin dağılımını gösteren kodu yazınız.
 
+<details><summary>Cevap</summary>
+<p>
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -503,6 +506,9 @@ plt.show()
 </details>
 
 4. Yüksek katlı bir binanın zemin katındasınız. Bir zar attığınızda zar 2 ve 2'den küçükse bir kat aşağı iniyorsunuz. Zar 3 ve 5 arasında gelirse 1 basamak yukarı çıkıyorsunuz. Eğer zar 6 gelirse tekrar zar atıyorsunuz ve attığınız zar kadar yukarı çıkıyorsunuz. 100 kere zar atıldığındaki kat dağılımınızı listeleyen kodu yazınız.
+
+<details><summary>Cevap</summary>
+<p>
 
 ```python
 import numpy as np
