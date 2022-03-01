@@ -438,14 +438,101 @@ __Yazı Tura Oyunu__
 
 1. Bir madeni para 10 kez atıldığında gelen sonuçları yazdıran kodu yazınız.
 
+<details><summary>Cevap</summary>
+<p>
 
+```python
+import numpy as np
+np.random.seed(22)
+sonuc = []
+
+for i in range(10):
+  para = np.random.randint(0,2)
+  if para == 0:
+    sonuc.append("Tura")
+  else:
+    sonuc.append("Yazı")
+
+print(sonuc)
+```
+
+</p>
+</details>
 
 2. Bir madeni para 10 kez atıldığında kaç kere yazı geldiğini gösteren kodu yazınız.
 
+<details><summary>Cevap</summary>
+<p>
 
+```python
+import numpy as np
+np.random.seed(22)
+yazi = [0]
+
+for i in range(10):
+  para = np.random.randint(0,2)
+  yazi.append(yazi[i] + para)
+
+print(yazi)
+```
+
+</p>
+</details>
 
 3. 2.numaralı örnek 1000 kere tekrarlandığında her bir tekrarda kaç kere yazı geldiğinin dağılımını gösteren kodu yazınız.
 
+<details><summary>Cevap</summary>
+<p>
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+final_yazi = []
+np.random.seed(22)
+for i in range(1000):
+  yazi = [0]
+  for i in range(10):
+    para = np.random.randint(0,2)
+    yazi.append(yazi[i] + para)
+  final_yazi.append(yazi[-1])
+
+plt.hist(final_yazi, bins=10)
+plt.show()
+```
+
+</p>
+</details>
 
 4. Yüksek katlı bir binanın zemin katındasınız. Bir zar attığınızda zar 2 ve 2'den küçükse bir kat aşağı iniyorsunuz. Zar 3 ve 5 arasında gelirse 1 basamak yukarı çıkıyorsunuz. Eğer zar 6 gelirse tekrar zar atıyorsunuz ve attığınız zar kadar yukarı çıkıyorsunuz. 100 kere zar atıldığındaki kat dağılımınızı listeleyen kodu yazınız.
+
+<details><summary>Cevap</summary>
+<p>
+
+```python
+import numpy as np
+np.random.seed(22)
+
+kat_dagilimi = [0]
+
+for x in range(100) :
+    kat = kat_dagilimi[-1]
+
+    zar = np.random.randint(1,7)
+
+    if zar <= 2:
+        kat = kat - 1
+        kat = max(0, kat)
+    elif zar <= 5:
+        kat = kat + 1
+    else:
+        kat = kat + np.random.randint(1,7)
+
+    kat_dagilimi.append(kat)
+
+print(kat_dagilimi)
+```
+
+</p>
+</details>
