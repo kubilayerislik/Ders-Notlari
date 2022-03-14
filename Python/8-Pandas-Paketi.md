@@ -136,3 +136,180 @@ Benzer şekilde, dataframedeki son satırları görmek için de __.tail()__ meto
 ![vgy.me](https://i.vgy.me/ZpFeo1.png)
 
 Dataframe sütunları veri türüne baktığımızda Pandas içinde tanımlanmış olan Index veri türünde olduğunu görürüz. Bu tanımlama sayesinde Pandas dataframelerde arama, sıralama vb. işlemleri çok hızlı bir şekilde yapabilmektedir. Benzer şekilde satırlar da indeklenmektedir. Iris dataframe indeksine bakalım:
+
+```python
+>>> iris.index
+RangeIndex(start=0, stop=150, step=1)
+
+# Veri çerçevesinin boyutlarına yani kaç satır ve kaç sütundan oluştuğu aşağıdaki gibi incelenir.
+>>> iris.shape
+(150, 5)
+```
+
+Dataframe'e ait bilgileri alabileceğimiz bir diğer metod __.info()__ metodudur ancak bu metod istatistiksel özellikler yerine sütunların veri tipi, dataframedeki satır sayısını, her bir sütundaki veri sayısı gibi değerleri vermektedir.
+
+```python
+>>> iris.info()
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 150 entries, 0 to 149
+Data columns (total 5 columns):
+ #   Column        Non-Null Count  Dtype
+---  ------        --------------  -----
+ 0   Sepal_Length  150 non-null    float64
+ 1   Sepal_Width   150 non-null    float64
+ 2   Pedal_Length  150 non-null    float64
+ 3   Pedal_Width   150 non-null    float64
+ 4   Species       150 non-null    object
+dtypes: float64(4), object(1)
+memory usage: 6.0+ KB
+```
+
+Bir dataframe'i olduğu gibi başka bir veri çerçevesine aktarmak için __copy()__ metodu kullanılmaktadır.
+
+```python
+>>> iris_yeni = iris.copy()
+```
+
+Pandas paketinin, NumPy paketi üzerinde geliştirildiğini daha önce belirtmiştik. İstenirse bir pandas dataframe'ine __.values__ özelliğini kullanarak NumPy dizisine çevirebilirsiniz.
+
+```python
+>>> np_iris = iris.values
+>>> np_iris
+
+array([[5.1, 3.5, 1.4, 0.2, 'setosa'],
+       [4.9, 3.0, 1.4, 0.2, 'setosa'],
+       [4.7, 3.2, 1.3, 0.2, 'setosa'],
+       [4.6, 3.1, 1.5, 0.2, 'setosa'],
+       [5.0, 3.6, 1.4, 0.2, 'setosa'],
+       ...
+```
+NumPy için geçerli olan metodları pandas dataframe'ine de uygulayabilirsiniz. Örneğin sayısal değerlerden oluşan bir dataframe'deki değerlerin doğal logaritmasını bulmak için NumPy paketindeki __.log()__ metodunu uygulayabilirsiniz.
+
+```python
+>>> import numpy as np
+
+# Önce iris dataframe'inin sayısal sütunlarını seçelim.
+>>> dizi = iris.iloc[:,[0,1,2,3]]
+>>> dizi_log = np.log(dizi)
+>>> dizi_log.head()
+
+  Sepal_Length	Sepal_Width	Pedal_Length	Pedal_Width
+0	  1.629241	    1.252763	   0.336472	   -1.609438
+1	  1.589235	    1.098612	   0.336472	   -1.609438
+2	  1.547563	    1.163151	   0.262364	   -1.609438
+3	  1.526056	    1.131402	   0.405465	   -1.609438
+4	  1.609438	    1.280934	   0.336472	   -1.609438
+```
+
+Şimdiye kadar gördüğümüz pandas serileri ve veri çerçeveleri esasen bir veya iki boyutlu veri yapılarıdır. Ancak, pandas üç ve daha fazla boyutlu veri yapılarına da izin vermektedir. Bunu pandas verilerinde çoklu indeks olarak ekleyerek yapabilirsiniz. Önce bir pandas serine çoklu indeks eklemeyi görelim. Aşağıdaki örnekte farklı hisse senetlerinin 2016 ve 2017 yılı kapanış fiyatlarını görüyorsunuz.
+
+```python
+>>> indeks = [("ABC", 2016),("ABC", 2017),
+              ("DEF", 2016),("DEF", 2017),
+              ("XYZ", 2016),("XYZ", 2017),
+              ("KLM", 2016),("KLM", 2017)]
+
+>>> fiyatlar = [32.5, 12.3, 24.7, 18.6, 20.3, 7.2, 51.9, 56.2]
+>>> hisseler = pd.Series(fiyatlar, index = indeks)
+>>> hisseler
+
+(ABC, 2016)    32.5
+(ABC, 2017)    12.3
+(DEF, 2016)    24.7
+(DEF, 2017)    18.6
+(XYZ, 2016)    20.3
+(XYZ, 2017)     7.2
+(KLM, 2016)    51.9
+(KLM, 2017)    56.2
+dtype: float64
+```
+
+Verileri bu şekilde indeksleyerek seride seçim de yapabilirsiniz.
+
+```python
+>>> hisseler[("XYZ",2016):("KLM",2017)]
+
+(XYZ, 2016)    20.3
+(XYZ, 2017)     7.2
+(KLM, 2016)    51.9
+(KLM, 2017)    56.2
+dtype: float64
+```
+
+Yukarıdaki gibi çoklu indeks kullanmanın daha etkin bir yöntemi ise pandas MultiIndex kullanmaktır.
+```python
+>>> indeks  = pd.MultiIndex.from_tuples(indeks)
+>>> indeks
+
+MultiIndex([('ABC', 2016),
+            ('ABC', 2017),
+            ('DEF', 2016),
+            ('DEF', 2017),
+            ('XYZ', 2016),
+            ('XYZ', 2017),
+            ('KLM', 2016),
+            ('KLM', 2017)],
+           )
+
+>>> hisseler = pd.Series(fiyatlar, index=indeks)
+>>> hisseler
+
+ABC  2016    32.5
+     2017    12.3
+DEF  2016    24.7
+     2017    18.6
+XYZ  2016    20.3
+     2017     7.2
+KLM  2016    51.9
+     2017    56.2
+dtype: float64
+
+# Hisseleri isimlendirmek de mümkündür.
+>>> hisseler.index.names = ["Hisse", "Yıl"]
+>>> hisseler
+
+Hisse  Yıl
+ABC    2016    32.5
+       2017    12.3
+DEF    2016    24.7
+       2017    18.6
+XYZ    2016    20.3
+       2017     7.2
+KLM    2016    51.9
+       2017    56.2
+dtype: float64
+```
+
+Yukarıdaki hisseler verisi bir boyutlu pandas verisi ancak ilk iki sütunda belirtilen iki indeksle gösteriliyor. Bu seriyi pandas modülündeki __.unstack()__  metodunu kullanarak dataframe'e çevirebilirsiniz.
+
+```python
+>>> hisseler.unstack()
+Yıl	     2016	2017
+Hisse
+ABC	     32.5	12.3
+DEF	     24.7	18.6
+KLM	     51.9	56.2
+XYZ   	 20.3	7.2
+```
+
+Bir dataframe'i de __.stack()__ metodu ile eski haline çevirebilirsiniz. MultiIndex ile çoklu indeks oluşturmanın üç farklı yöntemi vardır.
+
+Nasıl ki satırlar için  çoklu indeks oluşturabiliyorsakj sütunlar için de aynı şekilde çoklu indeks oluşturabiliriz. Çoklu indeks kullanımı özellikle panel verilerle yapılan çalışmalarda faydalıdır. Şimdi yukarıdaki hisse senedi tablosuna sütunlarına her çeyrek için kapanış fiyatı ve hacim bilgisini ekleyeblim.
+
+```python
+>>> indeks = pd.MultiIndex.from_product([["ABC","DEF","KLM"], [2016, 2017]])
+>>> sutunlar = pd.MultiIndex.from_product([["Q1", "Q2", "Q3", "Q4"],["Hacim","Kapanis"]])
+
+>>> veri = np.array([10762, 32.5, 12638, 33.5, 13689, 35.2, 18414, 37.4,
+                     10688, 12.3, 14348, 13.2, 15924, 15.3, 15243, 17.9,
+                     14841, 24.7, 14966, 22.1, 13098, 19.3, 17439, 15.4,
+                     15607, 18.6, 16166, 13.4, 10627, 15.1, 13396, 15.3,
+                     12565, 20.3, 17469, 21.4, 18964, 22.5, 15187, 23.6,
+                     13203, 7.2, 10629, 7.2, 15239, 8.2, 18307, 9])
+
+>>> veri = np.reshape(veri, (6,8))
+>>> hisseler = pd.DataFrame(veri, index = indeks, columns=sutunlar)
+>>> hisseler
+```
+![vgy.me](https://i.vgy.me/VkDOLO.png)
