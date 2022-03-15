@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # Verilerle Hikaye Anlatımı
 
 Veri görselleştirme hayatın her alanında olan ve sayılarla bir hikayeyi anlatma sanatı olarak tanımlanabilir. Okullarda dil ve matematik hakkında çok şey öğreniyoruz. Dil tarafında, kelimeleri nasıl cümlelere ve hikayelere dönüştüreceğimizi öğreniyoruz. Matematikle sayıları anlamlandırmayı öğreniyoruz. Ancak bu iki tarafın eşleştirilmesi nadirdir: kimse bize sayılarla hikaye anlatmayı öğretmez ve çok az insan bu alanda doğuştan yeteneklidir. Çünkü veri görselleştirme bir çok alanın birleştiği bir noktadır, hikayeyi doğru bir şekilde anlatabilmek için hem dil, hem görsel, hem de sayısal yönlerinizi aynı anda kullanmanız gerekmektedir.
@@ -10,12 +12,12 @@ Bazı verielri Excel'e koyabilir ve bir grafik oluşturabilirsiniz. Bir çok ki�
 
 
 | ![space-1.jpg](https://i.vgy.me/RgpDji.png) |
-|:--:|
-| *Şekil 1* |
+| :-----------------------------------------: |
+|                  *Şekil 1*                  |
 
 | ![space-1.jpg](https://i.vgy.me/ytpkDj.png) |
-|:--:|
-| *Şekil 2* |
+| :-----------------------------------------: |
+|                  *Şekil 2*                  |
 
 __Yukarıdaki aynı veri üzerinde iki adet grafik hazırlanmış sizin için hangisi daha anlamlı bir şekilde hikayeyi anlatmaktadır?__
 
@@ -125,12 +127,12 @@ __Büyük Fikir:__ Pilot yaz programı şu alanlarda başarılı oldu ve bu baş
 Bir görsel hazırlarken birçok farklı grafik ve görsel bilgi türleri vardır, ancak sıklıkla kullanılan grafik miktarı oldukça azdır. Yapılan bir çok çalışma ve proje incelendiğinde sadece bir düzine farklı görselin kullanıldığı tespit edilmiştir.
 
 | ![space-1.jpg](https://i.vgy.me/fK6OcG.png) |
-|:--:|
-| *Şekil 3* |
+| :-----------------------------------------: |
+|                  *Şekil 3*                  |
 
 | ![space-1.jpg](https://i.vgy.me/7OUCNl.png) |
-|:--:|
-| *Şekil 4* |
+| :-----------------------------------------: |
+|                  *Şekil 4*                  |
 
 ### Basit Metin
 
@@ -139,8 +141,8 @@ Hazırlayacağınız raporda veya sunumda paylaşacağınız bir veya iki istati
 Bu kavramı açıklamak için aşağıdaki örneği ele alalım. Ev hanımı olan annelerle ilgili Nisan 2014'ye yapılmış bir çalışmaya ait sonuçlar aşağıda verilmiştir.
 
 | ![space-1.jpg](https://i.vgy.me/OYZLHj.png ) |
-|:--:|
-| *Şekil 5* |
+| :------------------------------------------: |
+|                  *Şekil 5*                   |
 
 Bazı istatistiklere sahip olmanız, bir grafiğe ihtiyacınız olduğu anlamına gelmez. Yukarıdaki örnekte toplam iki sayı içinm oldukça fazla metin ve boşluk kullanılmıtır. Grafik, sayıların yorumlkanmasına yardımcı olmaktan ziyade daha da karmaşık gözükmektedir.
 
@@ -149,8 +151,8 @@ Bu durumda basit bir cümle yeterli olacaktır. 1970'te ki %41'e kıyasla, 2012'
 Alternatif olarak, bir sunumda veya raporda görseliniz aşağıdaki gibi görünebilir.
 
 | ![space-1.jpg](https://i.vgy.me/UmHfe0.png) |
-|:--:|
-| *Şekil 6* |
+| :-----------------------------------------: |
+|                  *Şekil 6*                  |
 
 Bu örneğin yerine istatisstiği iki yıl arasındaki yüzde değişimi açısından da yeniden incelemek mümkündür. "Geleneksel ev hanımı anneye sahip çocukların sayısı 1970 ile 2012 arasında %50'den fazla bir oranda azalmıştır." Elinizde bulunan birden fazla istediği birleştirdiğinizde örneğin %40 ve %20 yerine %50 azalmıştır ifadesini kullanırken anlamın kaybolup kaybolmadığına dikkat edilmelidir.
 
@@ -173,8 +175,8 @@ Bir tablo oluştururken arka planın verilerin önüne geçmesine izin vermeyin,
 Aşağıdaki tablolara göz atın. İkinci ve üçüncü tablolarda yapısal bileşenlerin daha fazla öne çıktığı fark edilmelidir (Açık renkli, minimal kenarlıklar)
 
 | ![space-1.jpg](https://i.vgy.me/dql6K4.png) |
-|:--:|
-| *Şekil 7* |
+| :-----------------------------------------: |
+|                  *Şekil 7*                  |
 
 Tablonuzun okunabilirliğini artırmak için kenarlıklar kullanılmalıdır. Kenarlıkları gri yaparak veya tamamen ortadan kaldırarak veriler ön plana çıkarılmalıdır. Veriler, sınırlar değil, öne çıkanlar olmalıdır.
 
@@ -185,8 +187,8 @@ Tablonuzun okunabilirliğini artırmak için kenarlıklar kullanılmalıdır. Ke
 Bir tabloya ekleyebileceğiniz ayrıntıları karıştırırken aynı zamanda görsel ipuçlarından da faydalanmak için ısı haritaları kullanılabilir.Isı haritası, verileri tablo biçiminde görselleştirmenin bir yoludur, burada sayıların yerine veya sayılarak ek olarak sayıların göreli büyüklüğünü ileten renkli hücrelerden yararlanılabilir.
 
 | ![space-1.jpg](https://i.vgy.me/6YsAka.png) |
-|:--:|
-| *Şekil 8* |
+| :-----------------------------------------: |
+|                  *Şekil 8*                  |
 
 Tablolarda neyin daha yüksek neyin daha düşük olduğunu bulmak için satır ve sütun olarak incelemeniz gerekmektedir. Bu zihinsel işlevi azaltmak için, görsel ipuçları sağlamak için renk doygunluğu kullanılabilir, gözlerimizin ve beynimizin potansiyel ilgi noktalarını daha hızlı hedeflemesine yardımcı olabilir. Sağdaki "Isı haritası" başlıklı tabloda mavinin renk doygunluğu ne kadar yüksekse sayı da o kadar yüksek anlamındadır. Bu buradaki en yüksek ve en düşük değerleri bulmak tabloda bulmaktan daha kolaydır.
 
@@ -207,14 +209,14 @@ Günlük hayatta sık kullanılan grafikler 4'e ayrılmaktadır: Saçılım (Nok
 Örneğin, bir otobüs filosunu yönettiğinizi ve kat edilen kilometre ile kilometre başına maliyet arasındaki ilişkiyi anlamak istendiği varsayılsın. Dağılım grafiği aşağıdakine benzer bir şekilde görünebilir.
 
 | ![space-1.jpg](https://i.vgy.me/qrGQ7B.png) |
-|:--:|
-| *Şekil 9* |
+| :-----------------------------------------: |
+|                  *Şekil 9*                  |
 
 Km başına maliyetin ortalamanın üzerinde olduğu durumlara odaklanmak istiyorsak, gözümüzü oraya daha hızlı çekmek için tasarlanmış biraz değiştirilmiş bir dağıolım grafiği aşağıdaki gibi kullanılabilir.
 
 | ![space-1.jpg](https://i.vgy.me/hLUqBP.png) |
-|:--:|
-| *Şekil 10* |
+| :-----------------------------------------: |
+|                 *Şekil 10*                  |
 
 Gözlenen örnek için yaklaşık 1700km'den daha az veya yaklaşık 3300 kmden fazla gidildiğinde km başına maliyetin ortalamadan daha yüksek olduğu gibi gözlemler yapmak için yukarıdaki görselin kullanılması daha kolaydır.
 
@@ -229,8 +231,8 @@ Gözlenen örnek için yaklaşık 1700km'den daha az veya yaklaşık 3300 kmden 
 Standart çizgi grafiği, aşağıda gösterildiği gibi tek bir veri dizisi için veya birden çok veri dizisi için kullanılabilir.
 
 | ![space-1.jpg](https://i.vgy.me/3KirLk.png) |
-|:--:|
-| *Şekil 11* |
+| :-----------------------------------------: |
+|                 *Şekil 11*                  |
 
 Bir çizgi grafiğinde yatay x ekseni üzerinde zaman değişkenini çizerken, çizilen verilerin tutarlı aralıklarla olması gerektiğini unutmayın. Örneğin 1900'den başlayan bir zaman skalasında 1910, 1920, 1930 vb ve 2010'dan sonra da 2011, 2012, 2013, 2014 olarak eşit olmayan zaman dilimleri şeklinde kullanılmamalıdır. Bu durumda, on yıllık puanlar ile yıllık puanlar arasındaki mesafenin aynı göründüğü anlamına gelmektedir. Bu, verileri göstermenin yanıltıcı bir yoludur.
 
@@ -239,8 +241,8 @@ Bir çizgi grafiğinde yatay x ekseni üzerinde zaman değişkenini çizerken, �
 >Bazı durumlarda, çizgi grafiğindeki çizgi, bir thaminin ortalama veya nokta tahmini gibi bir özet istatistiği temsil edebilir. Ayrıca aralık hakkında bir fikir vermek istiyorsanız, bu aralığı görselleştirerek bunu doğrudan grafik üzerinde yapabilirsiniz. Örneğin aşağıdaki grafikte, 13 aylık bir süre boyunca bir havalimanını için pasaport kontrolünde minimum, maksimum ve ortalama bekleme süreleri gösterilmektedir.
 
 | ![space-1.jpg](https://i.vgy.me/8zd6fj.png) |
-|:--:|
-| *Şekil 12* |
+| :-----------------------------------------: |
+|                 *Şekil 12*                  |
 
 ##### Eğim Grafiği
 
@@ -251,14 +253,14 @@ Eğim grafiklerinin değerini ve kullanım durumunu açıklamanın en iyi yolu b
 Eğim grafikleri birçok bilgi içerir. Mutlak değerlere (noktalara) ek olarak, onları birbirine bağlayan çizgiler, ne yaptıklarını veya tam olarak ne olduğunu açıklamak zorunda kalmadan, değişim oranındaki (eğim veya yön yoluyla) görsel artış ve azalma sağlar.
 
 | ![space-1.jpg](https://i.vgy.me/PeQ9Qd.png) |
-|:--:|
-| *Şekil 13* |
+| :-----------------------------------------: |
+|                 *Şekil 13*                  |
 
 Bir eğim grafiğinin sizin özel durumunuzda işe yarayıp yaramayacağı, verinin kendisine bağlıdır. Çizgilerin çoğu örtüşüyorsa, eğim grafiği anlamlı sonuç vermeyebilir, ancak bazı durumlarda yine de tek bir seriyi vurgulayabilirsiniz. Örneğin bir önceki örneğe göre zamanla azalan tek kategoriye dikkat çekebilirsiniz.
 
 | ![space-1.jpg](https://i.vgy.me/CIZSg4.png) |
-|:--:|
-| *Şekil 14* |
+| :-----------------------------------------: |
+|                 *Şekil 14*                  |
 
 Şekil 14'te "Kariyer Gelişimi"ndeki düşüşe hemen dikkatimiz çekilirken, verilerin geri kalanı dikkat çekmek için rekabet etmeden ilişkiyi korur.
 
@@ -275,8 +277,8 @@ Bu örnek için 2012 sonbaharında olduğunuzu düşünün. Bush'un vergi indiri
 Soldaki grafiğe baktığınızda, vergi indirimlerinin potansiyel süresinin dolması size nasıl hissettiriyor? Belki de büyük artıştan endişe duyuyorsunuz.
 
 | ![space-1.jpg](https://i.vgy.me/pXXEHU.png) |
-|:--:|
-| *Şekil 15* |
+| :-----------------------------------------: |
+|                 *Şekil 15*                  |
 
 
 Dikey eksende gösterilenm alt sayının sıfır değil, 34 olduğuna dikkat edin. Bu teorik olarak çubukların sayfanın altında devam etmesi gerektiği anlamına gelir. Aslında sol taraftaki görsel %460 oranında büyütülmüş grafiğin alt kısmının kesilmiş hali olarak düşünülebilir. Sağ tarafta ise tabanı sıfır olan ve %13 oranında büyütülmüş bir grafik çizilmiştir.
@@ -296,8 +298,8 @@ __Not: Sıfır taban çizgisi çubuk grafikleri için önemlidir. Çizgi grafikt
 Çubukların uzunluklarını düşünürken, çubukların genişliğine de zaman ayrılmalıdır. Burada kesin ve kesin bir kural yoktur ancak genel olarak çubuklar, çubuklar arasındaki boşluktan geniş olmalıdır. Çubuklar yerine boşluklar çok olduğunda hedef kitleniz çubuklardan ziyade boşlukları kıyaslamaya başlar.
 
 | ![space-1.jpg](https://i.vgy.me/XJduBQ.png) |
-|:--:|
-| *Şekil 16* |
+| :-----------------------------------------: |
+|                 *Şekil 16*                  |
 
 Çubuk grafikleri de kendi aralarında sınıflanmaktadır, bunlardan dikey çubuk grafiği, yığılımlı dikey çubuk grafiği, şelale grafiği, yatay çubuk grafiği ve yığılımlı yatay çubuk grafiğidir.
 
@@ -306,8 +308,8 @@ __Not: Sıfır taban çizgisi çubuk grafikleri için önemlidir. Çizgi grafikt
 Çizgi grafikler gibi dikey çubuk grafikleri de tek seri, iki seri ve birden çok seri olabilir. Dahja fazla veri dizisi ekledikçe, her seferinde bir tanesine odaklanmanın ve içgörü elde etmenin daha zor hale geldiği unutulmamalıdır.
 
 | ![space-1.jpg](https://i.vgy.me/iff6R0.png) |
-|:--:|
-| *Şekil 17* |
+| :-----------------------------------------: |
+|                 *Şekil 17*                  |
 
 ---
 
@@ -316,8 +318,8 @@ __Not: Sıfır taban çizgisi çubuk grafikleri için önemlidir. Çizgi grafikt
 Yığılımlı dikey çubuk grafikler için kullanım durumları daha sınırlıdır. Kategoriler arasındaki toplamları karşılaştırmamıza ve ayrıca belirli bir kategorideki alt billeşen parçalarını görmenize imkan sağlamaktadır. Bununla birlikte, özellikle çoğu grafik uygulamasındaki çeşitli renk şemaları göz önüne alındığında görsel olarak bunaltıcı olabilir. Yorumlanması oldukça zordur çünkü alt birleşenleri karşılaştırmak için yeterli bilgi bulunmaktadır.
 
 | ![space-1.jpg](https://i.vgy.me/40zbul.png) |
-|:--:|
-| *Şekil 18* |
+| :-----------------------------------------: |
+|                 *Şekil 18*                  |
 
 Yığılımlı dikey çubuk grafik, mutlak sayılar veya sütunun toplamı 100'e eşit şekilde düzenlenebillir. Hangisini seçeceğiniz, hedef kitlenize iletmek istediğiniz bilgi ile alakalıdır.
 
@@ -330,8 +332,8 @@ Yığılımlı dikey çubuk grafik, mutlak sayılar veya sütunun toplamı 100'e
 Bir şelale grafiği aşağıdaki gibi gözükecektir.
 
 | ![space-1.jpg](https://i.vgy.me/0S76tP.png) |
-|:--:|
-| *Şekil 19* |
+| :-----------------------------------------: |
+|                 *Şekil 19*                  |
 
 Sol tarafta, yılın başında verilen ekip çalışan sayısının ne olduğunu görüyoruz. Sağa doğru hareket ettikçe, ilk olarak gelen personeller ile karşılaşıyoruz: yeni işe alınanlar ve organizasyonun diğer bölümlerinden ekibe transfer edilen çalışanlar. Bunu gidenler bölümü takip etmektedir: ekipten organizasyonun diğer bölümlerine transfer olanlar ve işten ayrılanlar. Son sütun, yıl başındaki personel sayısına yapılan eklemeler ve kesinmtiler uygulandıktan sonra, yıl sonundaki çalışan sayısını temsil eder.
 
@@ -342,8 +344,8 @@ Sol tarafta, yılın başında verilen ekip çalışan sayısının ne olduğunu
 Kategorik veriler için dikey ya da yatay çubuk grafiği arasında yatay çubuk grafiği tercih edilmelidir. Çünkü okuması daha kolaydır. Yatay çubuk grafiği, çoğu izleyicinin metinleri okuduğu gibi soldan sağa doğru yazıldığından ve grafiğinizi hedef kitleniz için daha okunaklı hale getirdiğinden dolayı kategori isimleriniz uzunsa özellikle daha yararlıdır. Ayrıca tipik olarak bilgi işleme şeklimiz nedeniyle (ekranlarda ve sayfalarda sol üstten başlayarak sayfa boyunca gözlerle z hareketi yapılarak) yatay çubuk grafiğinin yapısı, gerçek verilerden önce kategori adlarına dikkat eder. Bu sayede verilere ulaştığımız zaman neyi temsil ettiğini zaten biliyor oluyoruz.
 
 | ![space-1.jpg](https://i.vgy.me/og51Jm.png) |
-|:--:|
-| *Şekil 20* |
+| :-----------------------------------------: |
+|                 *Şekil 20*                  |
 
 ---
 
@@ -362,16 +364,16 @@ Yığılımlı dikey çubuk grafiğine benzer şekilde, yığılımlı yatay çu
 İkinci yaklaşım yani %100 oran olarak yığılımlı grafiği kullanmak oldukça mantıklıdır. Çünkü hem solda hem de sağda tutarlı bir taban çizgisi elde edebilirsiniz ve en soldaki parçaların da kolayça yorumlanmasına imkan tanır. Örneğin Likert gibi ölçeklerde (genellikle Kesinlikle Katılmıyorum ile Kesinlikle Katılıyorum arasında değişen anketlerde yaygın olarak kullanılan ölçek) toplanan verilerin görselleştirilmesinde kullanılabilir.
 
 | ![space-1.jpg](https://i.vgy.me/qVD6ij.png) |
-|:--:|
-| *Şekil 21* |
+| :-----------------------------------------: |
+|                 *Şekil 21*                  |
 
 #### Alan
 
 Alan grafiklerini çok sık kullanmaktan kaçınılmalıdır. İki boyutlu uzayda niceliksel değerleri ayırt etmek kolay değildir; bu, alan grafiklerinin okunmasını diğer bazı görsel türlerinden daha zor hale getirebilir. Bu nedenle, çok farklı büyüklüklerdeki sayıları görselleştirmek dışında genellikle alan grafiklerinden kaçınılmalıdır. Grafikte bir kare kullanarak elde ettiğiniz ikinci boyut (yalnızca yüksekliği veya genişliği olan bir çubuk grafiğe kıyasla hem yüksekliği hem de genişliği vardır), değerlerin aşağıdaki grafikteki gibi tek bir boyutla mümkün olandan daha kompakt bir şekilde gösterilmesine izin verir.
 
 | ![space-1.jpg](https://i.vgy.me/nLOKhH.png) |
-|:--:|
-| *Şekil 22* |
+| :-----------------------------------------: |
+|                 *Şekil 22*                  |
 
 ---
 
@@ -391,16 +393,16 @@ Bir iş ortamında verileri iletmek için en sık kullanılan görseller yukarı
 Pasta grafikler kötüdür. Bu sonuca nasıl ulaştığımızı anlamak için bir örneğe bakalım.  Aşağıda gösterilen pasta grafik (gerçek bir örneğe dayalıdır) dört tedarikçi arasındaki pazar payını göstermektedir: A, B, C ve D. __Sizden basit bir gözlem ile yapmanız istenirse - bu görsele göre en büyük tedarikçi hangisidir - ne dersiniz?__
 
 | ![space-1.jpg](https://i.vgy.me/p6zrIM.png) |
-|:--:|
-| *Şekil 23* |
+| :-----------------------------------------: |
+|                 *Şekil 23*                  |
 
 Çoğu insan, sağ altta gösterilen "Tedarikçi B"nin en büyük olduğu konusunda hemfikir olacaktır. B tedarikçisinin toplam pazarın ne kadarını oluşturduğunu tahmin etmeniz gerekse, __yüzde kaç olduğunu  tahmin edersiniz?__
 
 __%35? %40?__
 
 | ![space-1.jpg](https://i.vgy.me/djrgQz.png) |
-|:--:|
-| *Şekil 24* |
+| :-----------------------------------------: |
+|                 *Şekil 24*                  |
 
 %31 ile en büyük görünen “Tedarikçi B”, yukarıda küçük görünen “Tedarikçi A”dan aslında daha küçüktür.
 
@@ -415,8 +417,8 @@ __Bunun yerine ne yapmalısınız?__
 *  İlk yaklaşım, pasta grafiğini, aşağıda gösterildiği gibi, en büyükten en küçüğe ya da tam tersi şekilde düzenlenmiş yatay bir çubuk grafikle değiştirmektir. Unutmayın, çubuk grafiklerle gözlerimiz bitiş noktalarını karşılaştırır. Ortak bir taban çizgisinde hizalandıkları için göreli boyutu değerlendirmek kolaydır. Bu, örneğin yalnızca hangi kategorinin en büyük olduğunu değil, aynı zamanda diğer kategorilerden kademeli olarak ne kadar daha büyük olduğunu görmeyi kolaylaştırır.
 
 | ![space-1.jpg](https://i.vgy.me/0pcUVe.png) |
-|:--:|
-| *Şekil 24* |
+| :-----------------------------------------: |
+|                 *Şekil 24*                  |
 
 Kendinizi bir pasta grafiği kullanırken bulursanız, duraklayın ve kendinize sorun: neden pasta? Bu soruyu cevaplayabiliyorsanız, muhtemelen pasta grafiği kullanmak için yeterince düşündünüz, ancak görsel yorumlamadaki bahsettiğimiz zorluklar göz önüne alındığında, kesinlikle tercih ettiğiniz ilk grafik türü bu olmamalıdır.
 
@@ -425,8 +427,8 @@ Kendinizi bir pasta grafiği kullanırken bulursanız, duraklayın ve kendinize 
 __Kaçınmamız gereken başka bir grafik: Halka grafiği.__
 
 | ![space-1.jpg](https://i.vgy.me/OlHvHN.png) |
-|:--:|
-| *Şekil 25* |
+| :-----------------------------------------: |
+|                 *Şekil 25*                  |
 
 Pasta grafikler ile izleyicilerimizden açıları ve alanları karşılaştırmasını istiyoruz. Halka grafiğiyle, izleyicilerimizden bir yay uzunluğunu başka bir yay uzunluğuyla karşılaştırmasını istiyoruz (örneğin, aşağıdaki grafikte A yayının B yayına kıyasla uzunluğu).
 
@@ -441,8 +443,8 @@ Veri görselleştirmenin altın kurallarından biri şu şekildedir: asla 3D kul
 3 boyutlu bir çubuk grafiğinde, buçuk yüksekliği, y eksenine karşılık gelen bir çizgi çekilmez, bunun yerine z eksenin arka kısmından bir çizgi çizilir ki bu da y ekseninin okunmasını güçleştirir. Buna örnek olarak aşağıdaki grafik verilebilir.
 
 | ![space-1.jpg](https://i.vgy.me/8BDFYE.png) |
-|:--:|
-| *Şekil 26* |
+| :-----------------------------------------: |
+|                 *Şekil 26*                  |
 
 __Sizce ocak ve şubat aylarında kaç sayı vardır?__
 
@@ -453,8 +455,8 @@ __Sizce ocak ve şubat aylarında kaç sayı vardır?__
 Bazen aynı x eksenine sahip farklı birimlere sahip değişkenleri bir arada göstermek yararlı olabilir. Ancak bunu yaparken ikincil bir y ekseni kullanmak zorunda kalabilirsiniz: grafiğin sağ tarafında başka bir dikey eksen. Aşağıda bununla ilgili bir örnek yer almaktadır.
 
 | ![space-1.jpg](https://i.vgy.me/wjdaJm.png) |
-|:--:|
-| *Şekil 27* |
+| :-----------------------------------------: |
+|                 *Şekil 27*                  |
 
 Yukarıdaki grafiği yorumlarken, hangi verinin hangi eksene göre okunması gerektiğini anlamak biraz zaman ve okuma gerektirir. Bu nedenle, ikincil veya sağ y ekseni kullanmaktan kaçınmalısınız. Bunun yerine, aşağıdaki yaklaşımlardan birinin ihtiyaçlarınızı karşılayıp karşılamayacağını düşünün:
 
@@ -464,8 +466,8 @@ Yukarıdaki grafiği yorumlarken, hangi verinin hangi eksene göre okunması ger
 2. Grafikleri dikey olarak ayırın ve her biri için ayrı bir y ekseni olsun (her ikisi de solda), ancak her ikisinde de aynı x ekseninden yararlanın.
 
 | ![space-1.jpg](https://i.vgy.me/9731Th.png) |
-|:--:|
-| *Şekil 28* |
+| :-----------------------------------------: |
+|                 *Şekil 28*                  |
 
 Aynı eksene karşı iki veri kümesi görüntülediğinizde, var olabilecek veya olmayabilecek bir ilişkiyi ima edebileceğini de belirtmekte fayda var. Bu, ilk etapta bunun uygun bir yaklaşım olup olmadığını belirlerken dikkat edilmesi gereken bir şeydir.
 
@@ -519,14 +521,14 @@ Burada altı ilkeyi tartışacağız: yakınlık, benzerlik, ortak alan, tamamla
 Fiziksel olarak birbirine yakın olan nesneleri bir grubun parçası olarak düşünme eğilimindeyiz. Yakınlık ilkesi aşağıdaki görselde gösterilmiştir: birbirine göreli yakınlıkları nedeniyle noktaları doğal olarak üç ayrı grup olarak görürsünüz.
 
 | ![space-1.jpg](https://i.vgy.me/eAwctW.png) |
-|:--:|
-| *Şekil 29* |
+| :-----------------------------------------: |
+|                 *Şekil 29*                  |
 
 Bundan tablo tasarımı şeklinde yararlanabiliriz. Aşağıdaki şekilde sadece noktalar arasındaki boşlukları ayırt ederek, gözleriniz ya birinci durumda sütunlara ya da ikinci durumda sıralara odaklanır.
 
 | ![space-1.jpg](https://i.vgy.me/w83TDq.png) |
-|:--:|
-| *Şekil 30* |
+| :-----------------------------------------: |
+|                 *Şekil 30*                  |
 
 ---
 
@@ -535,14 +537,14 @@ Bundan tablo tasarımı şeklinde yararlanabiliriz. Aşağıdaki şekilde sadece
 Benzer renk, şekil, boyut veya yönelime sahip nesneler, bir grubun parçasına ait ya da o grupla ilgili olarak algılanır. Aşağıdaki şekilde  soldaki mavi daireleri veya sağdaki gri kareleri doğal olarak birbiriyle ilişkilendirirsiniz.
 
 | ![space-1.jpg](https://i.vgy.me/2tg8W3.png) |
-|:--:|
-| *Şekil 31* |
+| :-----------------------------------------: |
+|                 *Şekil 31*                  |
 
 Bu, izleyicilerimizin gözlerini odaklanmalarını istediğimiz yöne çekmelerine yardımcı olmak için tablolarda kullanılabilir. Aşağıdaki şekilde, renk benzerliği, gözlerimizin (sütunlar yerine) satırlara odaklanması için bir ipucudur. Bu, dikkatimizi yönlendirmeye yardımcı olacak kenarlar gibi ek unsurlara olan ihtiyacı ortadan kaldırır.
 
 | ![space-1.jpg](https://i.vgy.me/AWLH3a.png) |
-|:--:|
-| *Şekil 32* |
+| :-----------------------------------------: |
+|                 *Şekil 32*                  |
 
 ---
 
@@ -551,14 +553,14 @@ Bu, izleyicilerimizin gözlerini odaklanmalarını istediğimiz yöne çekmeleri
 Fiziksel olarak aynı alana kapatılmış nesneleri bir grubun parçası olarak düşünürüz. Bunu yapmak için çok belirli bir duvar gerekmez: Aşağıdaki şekilde gösterildiği gibi, genellikle açık renkli gölgelendirme yeterlidir.
 
 | ![space-1.jpg](https://i.vgy.me/yx9fCA.png) |
-|:--:|
-| *Şekil 33* |
+| :-----------------------------------------: |
+|                 *Şekil 33*                  |
 
 Bu ilkeden yararlanmanın bir yolu, aşağıdaki grafikte yapıldığı gibi, verilerimiz içinde görsel bir ayrım yapmaktır.
 
 | ![space-1.jpg](https://i.vgy.me/zZwRkt.png) |
-|:--:|
-| *Şekil 34* |
+| :-----------------------------------------: |
+|                 *Şekil 34*                  |
 
 ---
 
@@ -567,14 +569,14 @@ Bu ilkeden yararlanmanın bir yolu, aşağıdaki grafikte yapıldığı gibi, ve
 Tamamlama kavramı, insanların görsellerin basit olmasını ve zaten kafamızda olan yapılara uymasını sevdiklerini söylemektedir. Bu nedenle, insanlar mümkün olduğunda bir dizi bireysel öğeyi tek, tanınabilir bir şekil olarak algılamaya eğilimlidirler - bir bütünün parçaları eksik olduğunda, boşluğu gözlerimiz doldurur. Örneğin, aşağıdaki şekildeki öğeler önce bir daire olarak ancak bundan sonra tek tek öğeler olarak algılanma eğiliminde olacaktır.
 
 | ![space-1.jpg](https://i.vgy.me/jPdMQZ.png) |
-|:--:|
-| *Şekil 35* |
+| :-----------------------------------------: |
+|                 *Şekil 35*                  |
 
 Grafik uygulamalarının (örneğin, Excel), grafik kenarlıkları ve arka plan gölgeleme gibi öğeleri içeren varsayılan ayarlara sahip olması yaygındır. Tamamlama ilkesi bize bunların gereksiz olduğunu söyler - onları kaldırabiliriz ve grafiğimiz hala uyumlu bir varlık olarak görünebilir. Bu gereksiz unsurları ortadan kaldırdığımızda, aşağıdaki şekilde gösterildiği gibi verilerimiz daha fazla öne çıkmaktadır.
 
 | ![space-1.jpg](https://i.vgy.me/Dg1EJ1.png) |
-|:--:|
-| *Şekil 36* |
+| :-----------------------------------------: |
+|                 *Şekil 36*                  |
 
 ---
 
@@ -583,27 +585,249 @@ Grafik uygulamalarının (örneğin, Excel), grafik kenarlıkları ve arka plan 
 Devamlılık ilkesi tamamlamaya benzer: nesnelere bakarken gözlerimiz en düz yolu arar ve doğal olarak gördüğümüz şeyde, açıkça var olmasa bile bir süreklilik yaratır. Örnek olarak, aşağıdaki şekilde, eğer nesneleri (1) alır ve onları ayırırsak çoğu insan bir sonraki (2) gösterileni görmeyi bekleyecektir, oysa bu, daha sonra gösterilen (3) de olabilir.
 
 | ![space-1.jpg](https://i.vgy.me/qGyDI2.png) |
-|:--:|
-| *Şekil 37* |
+| :-----------------------------------------: |
+|                 *Şekil 37*                  |
 
 Bu ilkenin uygulanmasında, aşağıdaki grafikten dikey y ekseni doğrusunu tamamen çıkarabiliriz. Soldaki etiketler ve sağdaki veriler arasındaki tutarlı beyaz boşluk (en düz yol) nedeniyle, gözleriniz aslında çubukların aynı noktada sıralandığını görüyor. Tamamlama prensibi ile de gördüğümüz gibi, gereksiz unsurların çıkarılması verilerimizin daha fazla öne çıkmasını sağlar.
 
 | ![space-1.jpg](https://i.vgy.me/Ihtqfw.png) |
-|:--:|
-| *Şekil 38* |
+| :-----------------------------------------: |
+|                 *Şekil 38*                  |
 
 #### Bağlantı
 
 Fiziksel olarak birbirine bağlı nesneleri bir grubun parçası olarak düşünme eğilimindeyiz. Bağlayıcı özellik tipik olarak benzer renk, boyut veya şekle göre daha güçlü bir çağrışım değerine sahiptir. Aşağıdaki şekile bakarken, gözleriniz muhtemelen çizgilerle birbirine bağlanan şekilleri eşleştirir (benzer renk, boyut veya şekil yerine): işte bağlantı ilkesi budur. Bağlayıcı özellik tipik olarak ortak alandan daha güçlü değildir, ancak istenen görsel hiyerarşiyi yaratmak için çizgilerin kalınlığı ve koyuluğu aracılığıyla bu ilişkiyi etkileyebilirsiniz.
 
 | ![space-1.jpg](https://i.vgy.me/5LbS3J.png) |
-|:--:|
-| *Şekil 38* |
+| :-----------------------------------------: |
+|                 *Şekil 38*                  |
 
 Bağlantı ilkesinden sıklıkla yararlanmamızın bir yolu, aşağıdaki şekilde gösterildiği gibi, gözlerimizin verilerdeki düzeni görmesine yardımcı olmak için kullanılan çizgi grafiklerdir.
 
 | ![space-1.jpg](https://i.vgy.me/x5pjtj.png) |
-|:--:|
-| *Şekil 39* |
+| :-----------------------------------------: |
+|                 *Şekil 39*                  |
 
 Gestalt ilkeleri insanların nasıl gördüğünü anlamamıza yardımcı olur, gereksiz unsurları belirlemek ve görsel iletişimimizin işlenmesini kolaylaştırmak için kullanabiliriz.
+
+Bu bölümün sonunda, Gestalt ilkelerinin bazılarını gerçek dünyadan bir örneğe nasıl uygulanacağı açıklanacaktır ancak öncesinde diğer görsel dağınıkları incelenmektedir.
+
+### Görsel Düzen Eksikliği
+
+Tasarım üzerine fazla düşünüldüğünde, grafik arka planda kaybolabilir, böyle bir durumda hedef kitlenizin görmesini istediğiniz grafiği hedef kitlenize yansıtamayabilirsiniz. Ancak tasarım üzerine düşünülmediğinde de, hedef kitleniz bilişsel yük hissedebilir. Görsel düzenin (ve bunun eksikliğinin) görsel iletişim üzerindeki etkisini anlamak için aşağıda bir örnek verilmiştir.
+
+Bir servis sağlayıcı seçiminde kar amacı gütmeyen kuruluşlar tarafından dikkate alınan faktörler hakkında anket geri bildirimini özetleyen Şekil 40'ı inceleyiniz.
+
+__Sayfadaki öğelerin düzeniyle ilgili olabilecek gözlemlerinizi özellikle not ediniz.__
+
+| ![space-1.jpg](https://i.vgy.me/QriV8H.png) |
+| :-----------------------------------------: |
+|                 *Şekil 40*                  |
+
+Grafiğe baktığınızda "bu oldukça iyi görünüyor" diye düşünebilirsiniz. Kabul edebiliriz. Korkunç değil. Olumlu tarafı, amaç açıkca ana hatlarıyla belirtilmiş, grafik iyi sıralanmış ve etiketlenmiştir ve önemli gözlemler eklenmiştir, grafikte bakmamız gereken yere görsel olarak bağlanmıştır. Ancak sayfanın genel tasarımı ve öğelerin yerleşimi söz konusu olduğunda, herhangi bir övgüde bulunulması imkansızdır. Buna göre, toplu görsel düzensiz ve bakılması rahatsız edici, sanki çeşitli bişelenler oraya genel sayfasının yapısı dikkate alınmadan gelişigüzel yerleştirilmiş gibi.
+
+Göreceli olarak küçük değişiklikler yaparak bu görseli önemli ölçüde iyileştirebilirsiniz. Şekil 40'a bakınız. İçerik tamamen aynı; yalnızca öğelerin yerleşimi ve biçimlendirilmesi değiştirilmiştir.
+
+| ![space-1.jpg](https://i.vgy.me/M5XBQb.png) |
+| :-----------------------------------------: |
+|                 *Şekil 41*                  |
+
+Orijinal görselle karşılaştırıldığında, ikinci görselin algılanması daha kolaydır. Bileşenlerin kapsayıcı tasarımına ve düzenlenmesine vakit harcandığı açıktır. Spesifik olarak, ikinci görselde, hizalama ve beyaz alana daha fazla dikkat edilerek tasarlanmıştır. Bunların her biri ayrıntılı olarak açıklanacaktır.
+
+---
+
+#### Hizalama
+
+Bir önceki örnekteki görseller arasındaki en büyük etkiye sahip olan tek değişiklik, ortalaya hizalanmış olan metinden sola hizalanmış metne geçişti. Orijinal sürümde, sayfadaki her metin bloğu ortaya hizalanmıştır. Bu, ne solda ne de sağda temiz boşluklar oluşturmaz ve bu da özensiz görünmesine neden olabilir. Bu nedenle ortaya hizalanmış metinlerden kaçınılmalıdır. Metninizi sola, sağa, yada iki taraflı yaslama kararı, sayfadaki diğer öğeler ile birlikte ele alınarak verilmelidir. __Genel olarak amaç, öğelerden ve beyaz boşluklardan (hem yatay hem dikey olarak) temiz çizgiler oluşturmaktır.__
+
+> __Öğeleri hizalamak için sunum yazılımı ipuçları__
+>
+> Öğelerinizi sunum yazılımınızdaki bir sayfaya yerleştirirken aynı hizada olmasını sağlamaya ayrdımcı olamk için, çoğu yazılımda yerleşik olarak bulunan cetveller veya kılavuz çizgileri bulunmaktadır. Bu özellikleri açın. Bu, daha temiz bir görünüm ve his yaratmak için öğelerinizi tam olarak hizalamanıza olanak tanır.
+>
+> Çoğu sunum uygulamasında tablo işlevi, geçici olarak hizalama amaçlı kullanılabilir: ayrı öğelerinizi oluşturmak için kendinize kılavuzluk edecek bir tablo oluşturun. Her şey tam istediğiniz gibi dizildiğinde, tabloyu kaldırın veya tablonun kenarlıklarını görünmez yapın, böylece geriye kalan tek şey mükemmel düzenlenmiş sayfanız olur.
+
+Başka bir görsel ipucu olmadan, hedef kitleniz genellikle bilgi almak amacıyla sayfanın veya ekranın sol üst köşesinden başlayacak ve gözlerini "z" şeklinde sayfayı veya ekranı geçerken hareket ettirecektir. Bu nedenle tablo ve grafikler söz konusu olduğunda, metni (başlık, eksen başlıkları, açıklama) en sol üstte hizalanmalıdır. Bu izleyicinin verilere ulaşmadan önce onlara tabloyu veya grafiği nasıl okuyacağını söyleyen ayrıntılara ulaşacağı anlamına gelir.
+
+Hizalama konusunda ek olarak köşegen bileşenler üzerinde de konuşulması gerekmektedir. Önceki örnekte, orijinal versiyonda, çıkarımları verilere bağlayan çapraz çizgiler ve çapraz olarak yönlendirilmiş x ekseni etiketleri bulunmaktaydı; verileri bağlayan çizgiler kaldırıldı ve ikincisi yatay yönlendirme olarak değiştirildi. Genellikle çizgilerde ve metinlerde köşegen öğelerden kaçınılmalıdır. Dağınık görünüyorlar ve metin durumunda, yatay duruma göre okunması daha zordur. Metnin yönü söz konusu olduğunda bir çalışma, her iki yönde de 45 derece döndürülmüş metnin okunmasının, normal yönelimli metni okumaya göre ortalama olarak %52 daha yavaş olduğu tespit edilmiştir (metin her iki yöne 90 derece döndürüldüğünde ortalama olarak %205 daha yavaş okunmuştur) bundan dolayı sayfadaki çapraz öğelerden kaçınmak en iyisidir.
+
+---
+
+#### Beyaz Alan (Boşluk)
+
+Çalışmayı hazırlayan kişiler veya yöneticiler nedense boşluklardan korkma eğilimdedir. Sayfadaki boş alana atıfta bulunmak için "beyaz alan" adı verilmiştir. İş hayatınızda aşağıdaki geri bildirimlerle karşılaşabilirsiniz: "o sayfada hala biraz boşluk var, o yüzden oraya bir şeyler ekleyin" veya daha kötüsü "o sayfada hala biraz boşluk var, o yüzden daha fazla veri ekleyin."  __Asla yalnızca veri eklemek için veri eklemeyin; yalnızca düşünerek ve belirli bir amacı göz önünde bulundararak veri ekleyin!__
+
+<br>
+
+Beyaz alanla daha rahat olmanız gerekmektedir.
+
+<br>
+
+Görsel iletişimdeki beyaz alan, topluluk önündeki konuşmalardaki duraklamalar kadar önemlidir. Belki de duraklamaları olmayan bir sunum yaptınız. Şuna benzer bir şey hissedilmektedir:
+
+Önünüzde bir konuşmacı var ve muhtemelen gerildiğinden dolayı veya belki de ayrılan sürede olması gerekenden fazla materyali aktarmaya çalıştıkları için dakidaka bir km konuşmakta ve siz nasıl nefes alabildiklerini merak ediyorsunuz bir soru sormak istiyorsunuz ama konuşmacı bir sonraki konuya geçti ve hala sizin sorunuzu sorabilmeniz için yeterince ara vermedi.
+
+Az önceki noktalama yapılmamış cümleyi okurken hissettiğiniz rahatsızlığa benzer bir şekilde, izleyici için rahatsız edici bir deneyimdir.
+
+Şimdi aynı sunucunun tek bir açıklama yapması durumunda etkisini hayal edin: "Pasta grafikler kötüdür."
+
+Ardından, bu ifadenin yankılanmasına izin vermek için tam 15 saniye duraklayın.
+<br>
+<br>
+<br>
+<br>
+Devam edin - yüksek sesle tekrar edin ve ardından yavaşça 15'e kadar içinizden sayın.
+<br>
+<br>
+<br>
+<br>
+Bu dramatik bir duraklama.
+<br>
+<br>
+<br>
+<br>
+ve dikkatinizi çekti değil mi?
+
+Bu stratejik olarak kullanılan beyaz alanın görsel iletişimimiz üzerindeki güçlü etkinin aynısıdır. Bunun olmaması - sözlü bir sunumdaki duraklamaların olmaması gibi - dinleyicilerimiz için rahatsız edicidir. Görsel iletişimimiz tasarımına tepki olarak izleyici rahatsizliğı, kaçınmayı amaçlamamız gereken bir şeydir. __Beyaz alan, sayfanın beyaz boşluk olmayan bölümlerine dikkat çekmek için stratejik olarak kullanılabilir.__
+
+Beyaz alanın korunması söz konusu olduğunda, bazı minimum yönergeler aşağıda verilmiştir. Kenar boşlukları metin ve görsel içermemelidir. Kullanılabilir alanı kaplamak için görselleir genişletme dürtüsüne direnin; bunun yerine görsellerinizi içeriklerine uygun şekilde boyutlandırın. Bu yönergelerin ötesinde, daha önce dramatik duraklama gösterildiği gibi, bayaz alanı vurgu için stratejik olarak kullanabileceğinizi düşünün. Gerçekten önemli olan bir şey varsa, bunu sayfadaki tek şey yapmayı düşünün. Bazı durumlarda, bu tek bir cümle veya hatta tek bir sayı olabilir.
+
+---
+
+#### Kontrastın Stratejik Olmayan Kullanımı
+
+Net kontrast, hedef kitlemize dikkatlerini nereye odaklayacaklarını anlamarına yardımcı olan bir sinyal olabilir. Öte yandan, net kontrast eksikliği bir tür görsel dağınıklık olabilir. Karşıtlığın kritik değerini tartışırken, güvercinlerle dolu bir gökyüzünde bir şahin görmnenin kolay olması, ancak kuşların çeşitlikleri arttıkça o şahini geçmenin giderek zorlaşması olarak düşünülebilir. Bu görsel tasarımda kontrastın stratejik olarak kullanımının önemini vurgular: __ne kadar çok şeyi farklılaştırırsak herhangi birinin öne çıkma derecesi o kadar az olur.__ Bunu başka bir şekilde açıklamak gerekirse, izleyicilerimizin bilmesini veya görmesini istediğimiz gerçekten önemli bir şey (şahin) varsa, onu diğerlerinden çok farklı bir şey yapmalıyız.
+
+Bu kavramı daha fazla açıklamak için aşağıda bir örnek verilmiştir.
+
+Bir parakendeci için çalıştığınızı ve müşterilerinizin mağazanızdaki alışveriş deneyimlerinin çeşitli boyutları hakkında rakiplerinize kıyasla ne durumda olduğunu anlamak istediğinizi düşünün. Bu bilgileri toplamak için bir anket yapıldı ve şimdi sizde anketleri yorumluyorsunuz. İlgilenilen her kategoriyi özetlemek için ağırlıklı bir performans endeksi oluşturdunuz (endeks ne kadar yüksekse, performansınız o kadar iyi ve tam tersi). Şekil 42'de şirketiniz ve beş rakibiniz için kategoriler arasında arağırlı performans endeksini göstermektedir.
+
+__Grafiği inceleyin ve yorumlarken ki düşünce sürecinizi not edin.__
+
+| ![space-1.jpg](https://i.vgy.me/VMwWXU.png) |
+| :-----------------------------------------: |
+|                 *Şekil 42*                  |
+
+Şekil 42'yi tek bir kelimeyle tanımlamamız gerekse, bu kelime ne olurdu? Meşgul, kafa karıştırıcı ve belki de yorucu gibi kelimeler akla geliyor. Bu grafikte dikkat edilmesi gereken çok fazla şey bulunmaktadır. __Bu grafikte o kadar çok şey dikkatimizi çekiyor ki nereye bakacağımızı bilmiyoruz.__
+
+Tam olarak neye baktığımızı gözden geçirelim. Bahsettiğimiz gibi, grafiklenen veriler ağırlıklı bir performans endeksidir. Çeşitli kategoriler arasında karşılaştırmak istedğimöiz bir özet performans metriği olarak özetlenebilir grafik. X ekseninde gösterilen Seçim, Kolaylık, Servis, İlişki ve Fiyat, bizim şirketimiz için bir dizi rakiple karşılaştırılmaktadır. Daha yüksek bir endeks daha iyi performansı temsil etmektedir ve daha düşük bir endeks daha düşük performans anlamına gelmektedir.
+
+Yukarıdaki grafikten bu bilgiyi almak yavaş bir süreçtir, aktarılanın şifresini çözmek için alttaki gösterge ile grafikteki veriler arasında ççok fazla ileri geri hareket edilmesi gerekmektedir. Çok sabırlı olunursa ve gerçekten bu görselden bilgi almak istesek bile, neredeyse imkansız çünkü "Şirketimiz" (mavi elmas) bazen diğer veri noktaları tarafından gizlenmektedir, bu yüzden karşılaştırmayı bile görmek neredeyse imkansızdır.
+
+Bu, kontrast eksikliğinin (ve diğer bazı tasarım sorunlarının) bilgiliyi yorumlamayı olması gerekenden çok daha zor hale getirdiği bir durumdur.
+
+__Aşağıda aynı veriler ile farklı bir grafik oluşturulmuştur.__
+
+| ![space-1.jpg](https://i.vgy.me/2tpNF6.png) |
+| :-----------------------------------------: |
+|                 *Şekil 43*                  |
+
+Gözden geçirilmiş grafikte bir takım değişiklikler yapılmıştır. İlk olarak, bilgileri göstermek için yatay bir çubuk grafik seçilmiştir. Bunu yaparken, tüm sayılar pozitif bir ölçekte olacak şekilde yeniden ölçeklendirilmiştir - orijinal dağılım grafiğinde, görselleştirme zorluğunu karmaşıklaştıran bazı negatif değerler bulunmaktaydı. Mutlak değerlerden çok göreli farklılıklarla ilgilenildiği için bu değişiklikler burada işe yaramıştır. Bu yeniden çevrimde, önceden yatay x ekseni boyunca olan kategoriler şimdi dikey y ekseninde ilerlemektedir. Her kategoride çubulun uzunluğu "Şirketimiz" (mavi) ve çeşitli rakipler (gri) genelinde özet metriği göstermekte ve daha uzun çubuklar daha iyi performansı temsil etmektedir. Bu durumda gerçek x ekseni ölçeğini göstermeme kararı, hedef kitlenin belirli sayıların küçük ayrıntılarına takılmak yerine göreli farklılıklara odaklanmaya zorlayan kasıtlı bir karardır.
+
+__Bu tasarımda iki şeyi hızlıca görmek kolaydır:__
+
+1. "Şirketimiz" çeşitli kategorilerde nasıl gittiğine dair göreceli bir fikir edinmek için gözlerimizin mavi çubukları taramasına izin verebiliriz: Fiyat ve Kolaylık'ta yüksek, İlişki'de daha düşük puan alıyoruz. Servis ve Seçim alanlarında düşük puanlar aldığımız gözükmektedir.
+2. Belirli bir kategoride, şirketimizin rakiplere göre ne durumda olduğunu görmek içim mavi çubuğu gri çubuklarla karşılaştırabiliriz: Fiyat rekabetinde diğer şirketlerden öndeyken, servis ve seçim kategorilerinde en sondayız.
+
+Rakipler, göründükleri sıraya göre birbirlerinden ayırt edilebilir (Rakip A her zaman mavi çubuktan hemen sonra gelir, Rakip B bundan sonra vb. görünür), soldaki legendda özetlenmiştir. Her bir rakibi hızlı bir şekilde tanımlayabilmek önemliyse bu tasarım buna hemen izin vermekmektedir. Ancak bu, öncelik açısından ikinci veya üçüncü dereceden bir karşılaştıormayssa ve en kritik şey değilse, bu yaklaşım işe yarayabilir. Düzenlemede ayrıca, hedef kitlenin bilgileri alırken kullanmaları için bir yapı sağlaya "Şirketimiz" için azalan ağırlıklı performans endeksine göre kategoriler düzenlenmiştir ve özet metrik (göreli sıralama) eklenmiştir. "Şirketimiz" rakiplerimize göre her kategoride nasıl bir sıraya sahip olduğunu hızlıca bilmek kolaydır.
+
+__Kontrastın (ve diğer bazı iyi düşünülmüş tasarım seçeneklerinin) etkili kullanımının, peşinde olduğumuz bilgiyi orijinal grafikte olduğundan çok daha hızlı, daha kolay ve daha rahat hissettiren bir süreç haline getirdiğine dikkat edilmelidir.__
+
+> __Gereksiz ayrıntılar dağınıklık olarak görülmemelidir.__
+>
+> Görselin başlığda değerlerin dolar olduğunu gösterdiği ancak dolar işaretlerinin tablo veya grafikteki gerçek sayılara dahil edilmediğüi durumlar olabilmektedir. Örneğin, y ekseninde başlık "Aylık Satışlar (Milyon ABD Doları)"  ancak y eksenindeki değerler 10 20 30 40. Bu kafa karıştırıcıdır. Her sayının yanına "$" işaretinin eklenmesi rakamların yorumlanmasını kolaylaştırır. Kitleniz, açıkçası başlıktan dolara baktığını hatırlamak zorunda değildir. Doları işareti, yüzde işaretleri gibi ifadeler her zaman sayılarla birlikte tutulması gereken bazı öğelerdir.
+
+---
+
+### Adım Adım Örnek
+
+Dağınıklığın ne olduğunu, onu görsel iletişimimizden çıkarmanın neden önemli olduğunu ve onu nasıl tanıyacağımızı anlattığımıza göre şimdi de gerçek dünyadan bir örneğe bakalım ve dağınıklığı tanımlama ve ortadan kaldırma sürecinin görsel ve görsel iletişimimizi nasıl iyileştirdiğini inceleyelim.
+
+__Senaryo:__ Bir bilgi teknolojisi (BT) ekibini yönetiyorsunuz. Ekibiniz, diğer çalışanların sorunlarını ticket ile alır ve teknik sorunlarını çözer. Geçen yıl ekibinizden, birkaç kişi ayrıldı ve yerine yeni personel almamaya karar verdiniz. Kalan çalışanlar işten ayrılan kişilerin yerine yeni kişiler almanız hakkındaki taleplerini ilettiler. Az önce size gelecek yıl için işe alım ihtiyaçlarınız soruldu ve birkaç kişiyi daha işe almanız gerekip gerekmediğini merak ediyorsunuz. İlk olarak, geçen yıl içinde kişilerin takımdan ayrılmasının ekibinizin genel üretkenliği üzerindeki etkisini anlamak istiyorsunuz. Gelen ticketların ve geçmiş yıldak çözülen ticketların aylık trendini çizersiniz. Ekibinizin üretkenliğinin yetersiz personel olmasından dolayı sıkıntı çektiğine dair bazı kanıtlar görüyorsunuz ve şimdi oluşturduğunuz hızlı ve kirli görseli işe alım talebinizin temeli haline getirmek istiyorsunuz. Şekil 44'de ilk oluşturulan grafik verilmiştir.
+
+| ![space-1.jpg](https://i.vgy.me/ead1Rq.png) |
+| :-----------------------------------------: |
+|                 *Şekil 44*                  |
+
+__Dağınıklığa doğru bir gözle bu görsele bir kez bakın. Gestalt ilkeleri, hizalama, beyaz alan ve karşıtlık üzerine ele aldığımız dersleri düşünün. Hangi şeylerden kurtulabilir veya değiştirebilirsiniz.? Kaç sorunu tanımlayabilirsiniz__
+
+Dağınıklığı azaltmak için altı büyük değişiklik belirlenebilir. Her biri aşağıda detaylı olarak açıklanmıştır.
+
+__1.Grafik kenarlığını kaldırın.__
+
+Gestalt'ın kapatma ilkesine ilişkin tartışmada ele alındığı gibi, harita sınırları genellikle gereksizdir. Bunun yerine, gerektiğinde görseli sayfadaki diğer öğelerden ayırmak için beyaz alan kullanmayı düşünün.
+
+| ![space-1.jpg](https://i.vgy.me/2QPEty.png) |
+| :-----------------------------------------: |
+|                 *Şekil 45*                  |
+
+<br>
+<br>
+<br>
+
+__2.Kılavuz çizgilerini kaldırın.__
+
+Hedef kitlenizin veriden eksene doğru parmak izini sürmesinin faydalı olacağını düşünüyorsanız veya verilerinizin daha etkin bir şekilde işleneceğini düşünüyorsanız, kılavuz çizgilerini kullanabilirsiniz ancak ince ve açık gri bir renk kullanın . Verilerinizle görsel olarak rekabet etmelerine izin vermeyin. Mümkün olduğunda onlardan tamamen kurtulun: bu, daha fazla kontrast sağlar ve verileriniz daha fazla öne çıkar.
+
+| ![space-1.jpg](https://i.vgy.me/YodFPr.png) |
+| :-----------------------------------------: |
+|                 *Şekil 46*                  |
+
+<br>
+<br>
+<br>
+
+__3.Veri işaretçilerini kaldırın.__
+
+Unutmayın, her bir öğe hedef kitlenizin bilişsel yüküne katkıda bulunur. Burada, görsel olarak çizgilerle gösterilen verileri işlemek için bilişsel yük ekliyoruz. Bu, veri işaretçilerini asla kullanmamanız gerektiği anlamına gelmez, ancak bunların dahil edilmesinin grafik uygulamanızın varsayılanı olması yerine, bunları bilerek ve bir amaç için kullanın.
+
+| ![space-1.jpg](https://i.vgy.me/6dmF3J.png) |
+| :-----------------------------------------: |
+|                 *Şekil 47*                  |
+
+<br>
+<br>
+<br>
+
+__4.Eksen Etiketlerinin Temizliği__
+En büyük çilelerden biri, y ekseni etiketlerinde sondaki sıfırlar: hiçbir bilgi değeri taşımazlar ve yine de sayıları olduğundan daha karmaşık gösterirler! Hedef kitlenizin bilişsel yükü üzerindeki gereksiz yüklerini azaltarak onlardan kurtulun. Ayrıca yılın aylarını, çapraz metni ortadan kaldırarak x eksenine yatay olarak sığacak şekilde kısaltabiliriz.
+
+| ![space-1.jpg](https://i.vgy.me/LMjkaw.png) |
+| :-----------------------------------------: |
+|                 *Şekil 48*                  |
+
+<br>
+<br>
+<br>
+
+__5.Verileri Doğrudan Etiketleyin__
+Artık yabancı bilişsel yükün çoğu ortadan kaldırıldığına göre, legend ve veriler arasında ileri geri gitme işi daha da belirgindir. Unutmayın, hedef kitleniz için çaba gibi görünecek herhangi bir şeyi belirlemeye çalışmak ve bu işi bilginin tasarımcıları olarak kendi üzerimize almak istiyoruz. Bu durumda, Gestalt'ın yakınlık ilkesinden yararlanabilir ve veri etiketlerini tanımladıkları verilerin hemen yanına koyabiliriz.
+
+| ![space-1.jpg](https://i.vgy.me/XkDHP4.png) |
+| :-----------------------------------------: |
+|                 *Şekil 49*                  |
+
+<br>
+<br>
+<br>
+
+__6.Tutarlı Renkler Kullanın__
+Önceki adımda Gestalt yakınlık ilkesinden yararlanırken, Gestalt benzerlik ilkesinden yararlanmayı da düşünelim ve veri etiketlerini tanımladıkları verilerle aynı renkte yapalım. Bu, hedef kitlemiz için "bu iki bilgi birbiriyle ilişkilidir" diyen başka bir görsel ipucudur.
+
+| ![space-1.jpg](https://i.vgy.me/VYru4V.png) |
+| :-----------------------------------------: |
+|                 *Şekil 50*                  |
+
+<br>
+<br>
+
+__Bu görsel henüz tamamlanmadı. Ancak dağınıklığı tespit etmek ve ortadan kaldırmak, bilişsel yükü azaltmak ve erişilebilirliği geliştirmek açısından bize çok yol kat etti. Şekil 51'de gösterilen öncesi ve sonrasına bir göz atın.__
+
+| ![space-1.jpg](https://i.vgy.me/IVIMaK.png) |
+| :-----------------------------------------: |
+|                 *Şekil 51*                  |
+
+---
+
+### Bölüm Özeti
+
+Hedef kitlenizin önüne her bilgi koyduğunuzda, bilişsel yük yaratıyorsunuz ve onlardan bu bilgiyi işlemek için beyin güçlerini kullanmalarını istiyorsunuz. Görsel dağınıklık, mesajımızın iletilmesini engelleyebilecek aşırı bilişsel yük yaratır. Görsel Algının Gestalt İlkeleri, hedef kitlenizin nasıl gördüğünü anlamanıza yardımcı olabilir ve gereksiz görsel öğeleri belirleyip kaldırmanıza olanak tanır. Görsellerinizin yorumlanmasını izleyicileriniz için daha rahat bir deneyim haline getirmeye yardımcı olmak için öğelerin hizalanmasından yararlanın ve beyaz alanı koruyun. Kontrastı stratejik olarak kullanın. __Dağınıklık düşmanınız: onu görsellerinizden yasaklayın!__
