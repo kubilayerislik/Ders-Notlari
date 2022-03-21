@@ -1,3 +1,5 @@
+<div style="text-align: justify">
+
 # Pandas Paketi
 
 NumPy paketi, veri saklama açısından oldukça hızlı ve etkin bir paket olmakla birlikte farklı türde verilerin bir arada kullanılması, verilerden seçim yapma gibi konularda yetersiz kalabilmektedir. _Pandas_ paketi hem yüksek performanslı hem de esnek veri analizi ihtiyacından doğmuş ve _Wes McKinney_ tarafından geliştirilmiştir. Pandas'ta esas olarak iki veri nesnesi bulunmaktadır: seriler ve veri çerçeveleri (data frameler).
@@ -313,3 +315,487 @@ Nasıl ki satırlar için  çoklu indeks oluşturabiliyorsakj sütunlar için de
 >>> hisseler
 ```
 ![vgy.me](https://i.vgy.me/VkDOLO.png)
+
+## Data Framelerde Seçim Yapma
+
+Bir data framedeki herhangi bir sütunu seçmek a da görnmek için __dataframe["sutun_adı"]__ formatı kullanılır. Önce dataframein ismi ve yanında köşeli parantez içinde, tırnak ya da kesme işareti içinde görülmek istenen sütun ismi yazılır. Yukarıdaki iris veri setinde __Pedal_Length__ sütununu görmmek için __iris["Pedal_Length"] yazılmalıdır.
+
+```python
+>>> iris["Pedal_Length"]
+
+0      1.4
+1      1.4
+2      1.3
+3      1.5
+4      1.4
+      ... 
+145    5.2
+146    5.0
+147    5.2
+148    5.4
+149    5.1
+Name: Pedal_Length, Length: 150, dtype: float64
+```
+
+Data framein yanında tek köşeli paranmtez kullanırsak sütundaki veriyi bir boyutlu olarak indirir.. Bunu bir lites olarak da düşünebilirsiniz. Nitekim, bu şekilde çetiğimiz veririnin üğtürünü incelemek istediğimizde bir boyutlu bir Series veri tipi olduğunu görürüz.
+
+
+```python
+>>> type(iris["Pedal_Length"])
+
+pandas.core.series.Series
+```
+
+Yukarıda da görüldüğü gibi data frameden çektiğimiz sütunun türü Series yani bir boyutlu bir dizidir. Eğer istediğimiz sütunun da data frame gibi davranmasını istiyorsak sütun ismini iki köşeli parantez içinde yazarsak aşağıdaki şekilde bir pandas data frame'i ile karşılaşırız.
+
+```python
+>>> iris[["Pedal_Length"]]
+
+
+   Pedal_Length
+0	1.4
+1	1.4
+2	1.3
+3	1.5
+4	1.4
+...	...
+145	5.2
+146	5.0
+147	5.2
+148	5.4
+149	5.1,
+
+150 rows × 1 columns
+
+>>> type(iris[["Pedal_Length"]])
+pandas.core.frame.DataFrame
+```
+
+__Görüldüğü gibi data framedeki bir sütunu bir adet köşeli parantezle çekince bir boyutlu seri, iki adet köşeli parantez ile çekince DataFrame veri yapısı ile karşılaşıyorsunuz.__
+
+Peki birden fazla sütunu çekmek istersek ne yapmamız gerekiyor? Sorgulamayı, bir adet köşeli parantezle yaptığımızda bir boyutlu seri üretildiğini söyledik. Bu nedenloe örneğin __iris["Sepal_Length","Sepal_Width"]__ şeklinde yazarsak hata mesajı ile karşılaşırsınız. Bu nedenle birden fazla değişkeni seçmek için iki adet köşeli parantez kullanmanız gerekmektedir.
+
+```python
+>>> iris[["Sepal_Length", "Sepal_Width"]]
+
+	Sepal_Length	Sepal_Width
+0	    5.1           3.5
+1	    4.9           3.0
+2	    4.7           3.2
+3	    4.6           3.1
+4	    5.0           3.6
+...	    ...           ...
+145	    6.7           3.0
+146	    6.3           2.5
+147	    6.5           3.0
+148	    6.2           3.4
+149	    5.9           3.0
+150 rows × 2 columns
+```
+
+Sütunları nasıl seçeceğimizi gördük. Şimdi de satırları nasıl seçeceğimizi görelim. Yine iris dataframe'i ile deval edelim. Bir dataframede belirli satırları seçmek için istediğimiz satır numaralarını arada iki nokta olacak şekilde yazıyoruz. Burada iki noktayı hatırlatmak da fayda var. Python'da indeks numaraları sıfırdan başlıyor ve indeks sondaki sayıyı kapsamıyor. Yani [2:5] indeks numaraları yazıldığında, 2 indeks numasarus ile başlayan ve 4 indeks numarası ile biten satırlar seçilecek, 5 indeks numarasına sahip satır seçilmeyecektir. İndeks numaralarının sıfırdan başladığını düşünürsek yaptığımız seçim 3. sıradaki satırla başlayıp 5. satırla sona erecektir. Sonuç olarak __iris[2:5]__ yazdğımızda aşağıdaki sonuçlar karşımıza çıkacaktır.
+
+
+```python
+>>> iris[2:5]
+
+       Sepal_Length	Sepal_Width	Pedal_Length	Pedal_Width	Species
+2	  4.7	           3.2	     1.3	    0.2	 setosa
+3	  4.6	           3.1	     1.5	    0.2	 setosa
+4	  5.0	           3.6	     1.4	    0.2	 setosa
+```
+
+NumPy dizilerinde hem satır hem de sütunlarda seçim yapmak mümkündü. Yani belirli sütunların belirli satırlarını seçebiliyorduk. Ancak, yukarıdaki gösterdiğimiz seçim yöntemi hem satır hem de sütunda seçim yapmaya izin vermemektedir. Pandas paketinde satır ve sütunlardan kolayca seçim yapmak için __loc__ ve __iloc__ fonksiyonları geliştirilmiştir. Bunlardan loc, location (konum); iloc ise integer location (sayısal konum) ifadelerini temsil etmektedir.
+
+Örnek olarak aşağıdaki şekilde görülen hisselerinm bir günlük açılış, en düşük, en yüksek ve kapanış fiyatlarını gösteren dataframeini dikkate alalım. Aşağıdaki dataframede satırların numaralarla değil hisse isimleri ile belirtildiğini görüyorsunuz. Bir dataframede satırları bu şekilde isimlendirmek mümkündür. Satır isimlendirme için __.index()__ metodu kullanılır. Aşağıdaki dataframein isminin hisseler olduğunu varsayalım. Bu durumda, satırları isimlendirmek için __hisseler.index = ["ABC", "DEF", "KLM", "XYZ", "IJK", "VYZ", "ERN", "HEA"]__ yazmak yeterlidir. Dataframeini bir csv dosyasından okutuyorsak ve satır isimleri de ilk sütunda ise bu durumda __.read_csv()__ metodunda dosya yolu ve isminden sonra ikinci bir argüman olarak __index_col()__ yazmanız gerekmektedir.
+
+```python
+>>> hisseler = pd.read_csv(dosya_yolu+"\hisseler.csv", index_col=0)
+>>> hisseler
+
+
+       Acilis	   En_Dusuk	 En_Yuksek	Kapanis
+ABC	 3.25	     3.15	   3.50	  3.15
+DEF	 5.48	     5.00	   6.00	  6.00
+KLM	 15.75	     15.25	   16.75	  16.50
+XYZ	 80.20	     75.00	   85.25	  84.30
+IJK	 17.50	     16.00	   19.00	  18.20
+VYZ	 25.70	     24.10	   27.50	  26.80
+ERN	 95.00	     90.20	   99.50	  97.50
+HEA	 55.00	     53.00	   57.40	  59.30
+```
+
+Şimdi önce ERN hissesine ait bilgileri görmek isteyelim. Satır isimleri ile seçim yapmak için __.loc[]__ fonksiyonunu kullanmanız gerekmektedir.
+
+```python
+>>> hisseler.loc["ERN"]
+
+Acilis       95.0
+En_Dusuk     90.2
+En_Yuksek    99.5
+Kapanis      97.5
+Name: ERN, dtype: float64
+```
+
+Seçimi bir adet köşeli parantez kullanarak yaptığımız için sonuç değişik bir formatta geldi. Yine dataframe formatında gelmesini sağlamak için iki adet köşeli parantez kullanılması gerekmektedir.
+
+```python
+>>> hisseler.loc[["ERN"]]
+
+
+       Acilis	  En_Dusuk	En_Yuksek	Kapanis
+ERN	 95.0	    90.2	   99.5      	 97.5
+```
+
+Bu şekilde birden fazla satır seçmek de mümkündür.
+
+```python
+>>> hisseler.loc[["ERN","HEA"]]
+
+	Acilis	   En_Dusuk	En_Yuksek	Kapanis
+ERN	 95.0	     90.2	   99.5	  97.5
+HEA	 55.0	     53.0	   57.4	  59.3
+```
+
+Bir sütun ve satırdaki değeri almak için sütun ve satır isimlerini sırayla köşeli parantez içinde aşağıda görüldüğü gibi belirtmek mümkündür. Önce sütun daha sonra satır ismi belirttiğimize dikkat edin.
+
+```python
+>>> hisseler["Acilis"]["ERN"]
+
+95.0
+```
+
+Aynı seçimi aşağıdaki şekilde de yapabilirsiniz. 
+
+```python
+>>> hisseler.Acilis["ERN"]
+
+95.0
+```
+
+Şimdi de birden fazla satır ve sütun ismi kullanılarak seçim yapmayı görelim. Bu tür seçimlerde __.loc__ özelliğini kullanırsınız. Bunun için de istediğimiz satır ve sütunları virgülle ayrılmış iki ayrı liste olarak istemeniz gerekmektedir.
+
+```python
+>>> hisseler.loc[["ERN","HEA"], ["En_Dusuk", "En_Yuksek"]]
+
+	En_Dusuk	En_Yuksek
+ERN	  90.2	         99.5
+HEA	  53.0	         57.4
+```
+
+Yukarıdaki seçimi bir adet satır ve sütun için de yapabileceğinizi unutmayın.
+
+```python
+>>> hisseler.loc[["ERN"],["Acilis"]]
+
+       Acilis
+ERN	95.0
+```
+
+Belirli değişkenlere ait tüm satırları seçtirmek için satır ismi yazmayıp bunun yerine : yazmanız yeterlidir.
+
+```python
+>>> hisseler.loc[:,["En_Dusuk", "En_Yuksek"]]
+
+       En_Dusuk	En_Yuksek
+ABC	  3.15	         3.50
+DEF	  5.00	         6.00
+KLM	  15.25	  16.75
+XYZ	  75.00	  85.25
+IJK	  16.00	  19.00
+VYZ	  24.10	  27.50
+ERN	  90.20	  99.50
+HEA	  53.00	  57.40
+```
+
+__NOT:__ Yukarıda tüm satırlar için mutlaka : kullanmamız gerektiğine dikkat edin. Bunun yerine sadece __hisseler.loc[["En_Dusuk", "En_Yuksek"]]__ yazarsanız __*hata mesajı*__ ile karşılaşırsınız.
+
+Satır ve sütun isimleri yerine indeks numaraları ile seçim yapmak için iloc fonksiyonu kullanılır. Bu kullanım şeklinde tek fark satır ve sütunların isimleri yerine indeks numaralarını kullanmanız gerekmektedir.
+
+```python
+>>> hisseler.iloc[1]
+
+Acilis       5.48
+En_Dusuk     5.00
+En_Yuksek    6.00
+Kapanis      6.00
+Name: DEF, dtype: float64
+
+>>> hisseler.iloc[[1]]
+
+
+       Acilis   En_Dusuk	En_Yuksek	Kapanis
+DEF	5.48	    5.0	   6.0          6.0
+
+
+>>> hisseler.iloc[0:6]
+
+      Acilis   En_Dusuk	En_Yuksek	Kapanis
+ABC	3.25	   3.15	   3.50	 3.15
+DEF	5.48	   5.00	   6.00	 6.00
+KLM	15.75	   15.25	   16.75	 16.50
+XYZ	80.20	   75.00	   85.25	 84.30
+IJK	17.50	   16.00	   19.00	 18.20
+VYZ	25.70	   24.10	   27.50	 26.80
+
+>>> hisseler.iloc[[1,2,3]]
+
+
+       Acilis	   En_Dusuk	En_Yuksek	Kapanis
+DEF	5.48	     5.00	   6.00	  6.0
+KLM	15.75	     15.25	   16.75	  16.5
+XYZ	80.20	     75.00	   85.25	  84.3
+```
+
+Yine iki adet köşeli parantez kullandığımıza dikkat edin. Bir tane köşeli parantez kullanmamız halinde Dizi şeklinde sonuç alınmaktadır.
+
+Birden fazla satır ve sütunda seçim yağmak için yine loc fonsiyonunda olduğu şekilde ama bu defa satır ve sütun indeks numaralarını belirterek yazılması gerekmektedir.
+
+```python
+>>> hisseler.iloc[[1,2,3],[2,3]]
+
+
+       En_Yuksek	Kapanis
+DEF	  6.00	         6.0
+KLM	  16.75	  16.5
+XYZ	  85.25	  84.3
+```
+
+Sütun ismi ve indek numaralarını bir arada kullanmak da mümkündür. Örneğin, ilk 4 sıradaki hissenin kapanış fiyatlarını görelim:
+
+```python
+>>> hisseler["Kapanis"][0:4]
+
+ABC     3.15
+DEF     6.00
+KLM    16.50
+XYZ    84.30
+Name: Kapanis, dtype: float64
+```
+
+Satır seçimine 0:4 yazdığımızda 0,1,2 ve 3. sıradaki yani ilk dört sıradaki verileri çektiğimize dikkat edin. ":" işaretini satır veya sütun isimleriyle de kullanabilirsiniz.
+
+```python
+>>> hisseler.loc["ABC":"KLM","En_Dusuk":"Kapanis"]
+
+	En_Dusuk	En_Yuksek	Kapanis
+ABC	3.15	         3.50	         3.15
+DEF	5.00	         6.00	         6.00
+KLM	15.25	         16.75	  16.50
+```
+
+Satır ya da sütunları ters sırada yazdırmak da mümkündür. 
+
+```python
+>>> hisseler.loc["KLM":"ABC":-1]
+
+	Acilis	   En_Dusuk	  En_Yuksek	Kapanis
+KLM	 15.75	   15.25	  16.75	16.50
+DEF	 5.48	   5.00	  6.00	        6.00
+ABC	 3.25	   3.15	  3.50	        3.15
+```
+
+Yukarıda anlatılan satır ve sütun seçim yöntemleri aşağıdaki tabloda özetlenmiştir. 
+
+| **Kullanım**                             	| **Sonuç**                                                                                             	|
+|------------------------------------------	|-------------------------------------------------------------------------------------------------------	|
+| hisseler["Kapanis"]                      	| Sütunu bir boyutlu veri dizisi olarak alır.                                                           	|
+| hisseler[["Kapanis"]]                    	| Sütunu pandas dataframe'i olarak alır.                                                                	|
+| hisseler[["En_Yuksek", "Kapanis"]]       	| Sütunları pandas dataframe'i olarak alır.                                                             	|
+| hisseler[2:5]                            	| 3.satırdan (indeks no:2) başlayarak 5.satır<br><br>(indeks no:4) dahil olacak şekilde satırları alır. 	|
+| hisseler.loc["ERN"]                      	| Satırı bir boyutlu veri dizisi olarak alır.                                                           	|
+| hisseler.loc[["ERN"]]                    	| Satırı pandas dataframe'i olarak alır.                                                                	|
+| hisseler.loc[["ERN","HEA"]]              	| Satırları pandas dataframe'i olarak alır.                                                             	|
+| hissler.loc[["ERN","HEA"],["En_Yuksek"]] 	| Satır ve sütunları pandas dataframe'i olarak alır.                                                    	|
+| hisseler.loc[:,["En_Dusuk,"En_Yuksek"]]  	| İstenen sütuınların tüm satırlarını alır.                                                             	|
+| hisseler.iloc[[1]]                       	| İndeks numarası 1 olan (2.sıradaki] satırı alır.                                                      	|
+| hisseler.iloc[[1,2,3],[2,3]              	| İndeks numarası 1,2 ve 3 olan satırları ve 2,3 olan<br>alır                                           	|                                   |
+
+
+Bir dataframe'e for döngüsü uygulanırsa ne olur? Yukarıda kullanılan hisseler dataframe'e for döngüsü uygulayalım. 
+
+```python
+>>> for i in hisseler:
+       print(i)
+
+
+Acilis
+En_Dusuk
+En_Yuksek
+Kapanis
+```
+
+Görüldüğü gibi sadece değişken isimleri yazdırılıyor. Bir dataframedeki bilgilere erişmek için pandas paketinde yer alan _.iterrows()__ metodu kullanılır. Şimdi bu metodu kullanarak bir for döngüsü yazalım.
+
+```python
+>>> for hisse, satir in hisseler.iterrows():
+       print(hisse)
+       print(satir)
+
+
+ABC
+Acilis       3.25
+En_Dusuk     3.15
+En_Yuksek    3.50
+Kapanis      3.15
+Name: ABC, dtype: float64
+DEF
+Acilis       5.48
+En_Dusuk     5.00
+En_Yuksek    6.00
+Kapanis      6.00
+Name: DEF, dtype: float64
+KLM
+Acilis       15.75
+En_Dusuk     15.25
+En_Yuksek    16.75
+Kapanis      16.50
+Name: KLM, dtype: float64
+XYZ
+Acilis       80.20
+En_Dusuk     75.00
+En_Yuksek    85.25
+Kapanis      84.30
+Name: XYZ, dtype: float64
+IJK
+...
+En_Dusuk     53.0
+En_Yuksek    57.4
+Kapanis      59.3
+Name: HEA, dtype: float64
+```
+
+Diyelim ki hewr defasında sadace belirli bir sütundaki verilere erişmek istiyoruz.
+
+```python
+>>> for hisse, satir in hisseler.iterrows():
+        print(hisse + ":" + str(satir["Kapanis"]))
+
+ABC:3.15
+DEF:6.0
+KLM:16.5
+XYZ:84.3
+IJK:18.2
+VYZ:26.8
+ERN:97.5
+HEA:59.3
+```
+
+For döngüsü kullanarak dataframe'e yeni bir sütun da ekleyebiliriz. Şimdi her bir hissenin günlük açılış fiyatı ile kapanış fiyatı arasıondaki farkı alarak __günlük_fark__ isminde bir sütun oluşturmak istediğimizi düşünelim. Bunu aşağıdaki şekilde kolayca gerçekleştirebilirsiniz.
+
+```python
+>>> for hisse, satir in hisseler.iterrows():
+       hisseler.loc[hisse, "gunluk_fark"] = satir["Kapanis"] - satir["Acilis"]
+    print(hisseler)
+
+     Acilis  En_Dusuk  En_Yuksek  Kapanis  gunluk_fark
+ABC    3.25      3.15       3.50     3.15        -0.10
+DEF    5.48      5.00       6.00     6.00         0.52
+KLM   15.75     15.25      16.75    16.50         0.75
+XYZ   80.20     75.00      85.25    84.30         4.10
+IJK   17.50     16.00      19.00    18.20         0.70
+VYZ   25.70     24.10      27.50    26.80         1.10
+ERN   95.00     90.20      99.50    97.50         2.50
+HEA   55.00     53.00      57.40    59.30         4.30
+```
+
+Aslında yukarıdaki for döngüsünü, dataframelerinde döngülerin nasıl çalıştığını görmek için yazdık. Ama yeni bir sütun eklemenin çok daha kolay ve hızlı bir yolu vardır. Aşağıdaki kod da yukarıdaki sonucun aynısını çok daha kısa bir sürede verecektir.
+
+```python
+>>> hisseler["Gunluk_Fark"] = hisseler["Kapanis"] - hisseler["Acilis"]
+>>> hisseler
+
+	Acilis	  En_Dusuk	En_Yuksek	Kapanis	gunluk_fark	Gunluk_Fark
+ABC	3.25	    3.15	  3.50	        3.15	          -0.10	-0.10
+DEF	5.48	    5.00	  6.00	        6.00	          0.52	0.52
+KLM	15.75	    15.25	  16.75	 16.50	          0.75	0.75
+XYZ	80.20	    75.00	  85.25	 84.30	          4.10	4.10
+IJK	17.50	    16.00	  19.00	 18.20	          0.70	0.70
+VYZ	25.70	    24.10	  27.50	 26.80	          1.10	1.10
+ERN	95.00	    90.20	  99.50	 97.50	          2.50	2.50
+HEA	55.00	    53.00	  57.40	 59.30	          4.30	4.30
+```
+
+## Pandas ile Veri Analizi
+
+Bir veri kümesi ile çalışmaya başlamadan önce ilk olarak verilerin özelliklerine bakılır. Bu özellikler de genelde minimum, maksimum, ortalama, standart sapma, medyan, ve kartiller gibi değerlerdir. Pandas modülünde bu özelliklerin hepsini bir arada gösteren __.describe()__ metodu mevcuttur. Şimdi yine iris veri setinin bu metodunu kulllanarak inceleyelim.
+
+```python
+>>> import pandas as pd
+>>> import os
+>>> pwd = os.getcwd()
+>>> iris = pd.read_csv(pwd+"\iris.csv")
+>>> iris.describe()
+
+	Sepal_Length	Sepal_Width	Pedal_Length	Pedal_Width
+count	150.000000	150.000000	150.000000	150.000000
+mean	5.843333	3.054000	3.758667	1.198667
+std	0.828066	0.433594	1.764420	0.763161
+min	4.300000	2.000000	1.000000	0.100000
+25%	5.100000	2.800000	1.600000	0.300000
+50%	5.800000	3.000000	4.350000	1.300000
+75%	6.400000	3.300000	5.100000	1.800000
+max	7.900000	4.400000	6.900000	2.500000
+```
+
+Her bir sütun için yukarıdan aşağıya sırayla count (veri sayısı), mean (ortalama), std (standart sapma), min (en düşük değer), %25 (1.kartil), %50 (medyan), %75 (3.kartil) ve max (en büyük değer) görülmektedir.
+
+Yukarıdaki tabloda sadece sayısal verilere ilişkin özet bilgileri görüyoruz. Ancak iris veri setinde bir de Species yani tür bilgisini içeren bir sütun bulunmaktadır. Bu sütuna ait özellik bilgileri de __.describe()__ metodu ile görebilirsiniz. Aşağıda yer alan sonucu incelediğinizde bu sütunda 3 farklı değer olduğunu anlıyoruz. Bunlardan en sık görülenin versicolor türü olduğu belirtilmiştir.  Tablodaki top (mod), freq (moda ait frekans) bilgilsini belirtmektedir.
+
+```python
+>>> iris["Species"].describe()
+
+count            150
+unique             3
+top       versicolor
+freq              50
+Name: Species, dtype: object
+```
+
+Bir sütunda hangi kategorik değişkenlerin yer aldığını görmek için __.unique()__ metodunu kullabilirsiniz. Bu metod, özellikle çok büyük veri setlerinde oldukça kullanışlı olabilir.
+
+```python
+>>> iris["Species"].unique()
+
+array(['setosa', 'versicolor', 'virginica'], dtype=object)
+```
+
+Sayısal bilgilere ilişkin ortalama, standart sapma vb. özet değerleri ayrı ayrı hesaplamak için Pandas metodları bulunmaktadır.
+
+```python
+>>> iris.count()
+
+Sepal_Length    150
+Sepal_Width     150
+Pedal_Length    150
+Pedal_Width     150
+Species         150
+dtype: int64
+```
+
+Sadece istediğimiz sütunları seçerek bunlara ilişkin değerleri de görebilirsiz. Örneğin, __Pedal_Length__ ve __Pedal_Width__ sütunlarının veri sayısını görmek istiyorsak __iris[["Pedal_Length","Pedal_Width"]].count()__ yazmanız gerekmektedir. 
+
+__NOT: Buradaki çift köşeli parantez yapısına dikkat edilmelidir. Çünkü istediğimiz sütunları liste olarak iletiyoruz.__
+
+.count() gözlem sayısı için, .mean() ortalama için, .std() standart sapma için, .median() medyan için ve .quantile() yüzdelik dilim için kullanılabilir.
+
+Gösterilen metodlar arasında __.quantile()__ metodunu açıklamak gerekmektedir. Bu metodu kullanırken, hangi yüzdelik dilimi istediğimizi, ondalık sayı şeklinde belirtmemiz gerekmektedir. Örneğin 1.kartili hesaplamak için __.quantile(0.25)__ yazmanız gerekmektedir.
+
+Şimdiye kadar gördüğümüz metodları, sütunların yanı sıra satırlara da uygulayabiliriz. Yani satır bazıdna minimum, maksimum, ortalama vb. gibi değerleir hesaplatabiliriz. Bunun için uygulamız metod içinde __axis="columns"__ argümanını belirtmemiz gerekmektedir.
+
+```python
+>>> iris.mean(axis="columns")
+
+0      2.550
+1      2.375
+2      2.350
+3      2.350
+4      2.550
+       ...  
+145    4.300
+146    3.925
+147    4.175
+148    4.325
+149    3.950
+Length: 150, dtype: float64
+```
