@@ -831,3 +831,219 @@ __Bu görsel henüz tamamlanmadı. Ancak dağınıklığı tespit etmek ve ortad
 ### Bölüm Özeti
 
 Hedef kitlenizin önüne her bilgi koyduğunuzda, bilişsel yük yaratıyorsunuz ve onlardan bu bilgiyi işlemek için beyin güçlerini kullanmalarını istiyorsunuz. Görsel dağınıklık, mesajımızın iletilmesini engelleyebilecek aşırı bilişsel yük yaratır. Görsel Algının Gestalt İlkeleri, hedef kitlenizin nasıl gördüğünü anlamanıza yardımcı olabilir ve gereksiz görsel öğeleri belirleyip kaldırmanıza olanak tanır. Görsellerinizin yorumlanmasını izleyicileriniz için daha rahat bir deneyim haline getirmeye yardımcı olmak için öğelerin hizalanmasından yararlanın ve beyaz alanı koruyun. Kontrastı stratejik olarak kullanın. __Dağınıklık düşmanınız: onu görsellerinizden yasaklayın!__
+
+
+---
+
+# Hedef Kitlenizin Dikkatini Odaklayın
+
+Bir önceki bölümde, dağınıklığı tespit edip görsellerimizden kaldırmanın önemini anlatılmıştı. Dikkat dağıtıcı unsurları ortadan kaldırmak için çalışırken, kalanlara da bakmak ve okuyucularımızın görsel iletişimlerimizle nasıl etkileşime girmesini istediğimizi düşünmek önemlidir.
+
+Bu bölümde, insanların nasıl gördüğünü ve bunu görseller oluştururken nasıl kendi avantajınıza kullanabileceğinizi inceleyeceğiz. Görme ve hafıza hakkında konuşarak bazı özel, güçlü araçların önemini vurgulayacağız: dikkat çekici nitelikler. Boyut, renk ve sayfadaki konum gibi dikkat çekici niteliklerin stratejik olarak nasıl kullanılabileceğinin iki yolunu keşfedeceğiz. İlk olarak, hedef kitlenizin dikkatini, odaklamalarını istediğiniz yere yönlendirmeye yardımcı olmak için dikkat çekici niteliklerden yararlanılabilir. İkincisi, hedef kitlenizi, iletmek istediğiniz bilgileri işlemelerini istediğiniz şekilde yönlendirmek için görsel bir öğe hiyerarşisi oluşturmak için kullanılabilirler.
+
+## Beyninizle Görürsünüz
+
+Şekil 52'de gösterilen, insanların nasıl gördüğüne dair basitleştirilmiş bir resme bakalım. Süreç şuna benzer: Işık bir uyarıcıdan yansır. Bu gözlerimiz tarafından yakalanır. Tam olarak gözlerimizle görmüyoruz; orada bazı işlemler var, ama görsel algı olarak düşündüğümüz şey beynimizde oluyor.
+
+| ![space-1.jpg](https://i.vgy.me/GW6DLp.png) |
+| :-----------------------------------------: |
+|                 *Şekil 52*                  |
+
+### Hafıza Üzerine Kısa Bir Ders
+
+Beyinde, görsel iletişimi tasarlarken anlamamız gereken üç tür hafıza vardır: ikonik hafıza, kısa süreli hafıza ve uzun süreli hafıza. Her biri önemli ve farklı bir rol oynar. Aşağıda, görsel iletişimleri tasarlarken bilmeniz gerekenler için zemin hazırlamak üzere ele alınan, oldukça karmaşık süreçlerin temel açıklamaları yer almaktadır.
+
+#### İkonik Hafıza
+
+İkonik hafıza süper hızlıdır. Siz bilinçli olarak farkına varmadan gerçekleşir ve etrafımızdaki dünyaya baktığımız her an çalışır. Niye mi? Evrim zincirinde uzun zaman önce, yırtıcılar beynimizin büyük görme verimliliği ve tepki hızı sağlayacak şekilde gelişmesine yardımcı oldular. Özellikle, çevremizdeki farklılıkları (örneğin, uzaktaki bir yırtıcı hayvanın hareketi) hızlı bir şekilde algılama yeteneği, görsel sürecimize kök saldı. Bunlar o zaman hayatta kalma mekanizmalarıydı; bugün etkili görsel iletişim için kullanılabilirler.
+
+Bilgi, kısa süreli hafızaya iletilmeden önce ikonik hafızanızda bir saniyeden çok daha kısa bir süre kalır. İkonik hafızayla ilgili önemli olan şey, bir dizi dikkat çekici niteliğe göre ayarlanmış olmasıdır. Dikkat çekici nitelikler, görsel tasarım için kritik araçlardır,
+
+#### Kısa Süreli Hafıza
+
+Kısa süreli belleğin sınırlamaları vardır. Spesifik olarak, insanlar belirli bir zamanda kısa süreli belleklerinde yaklaşık dört parça görsel bilgi tutabilirler. Bu, on farklı veri işaretçisi şekline sahip on farklı renkte on farklı veri serisinden oluşan bir grafik oluşturursak, okuyucuyu açıklamalar ile veriler arasında gidip gelerek bunu deşifre etmek için çok sıkı çalıştırıyoruz demektir. Daha önce tartıştığımız gibi, okuyucumuz üzerindeki bu tür bilişsel yükü mümkün olduğunca sınırlamak istiyoruz. Okuyucumuzu bilgiye ulaşmak için çalıştırmak istemiyoruz, çünkü bunu yaparken dikkatlerini kaybetme riskiyle karşı karşıyayız. Bu şekilde iletişim kurma yeteneğimizi kaybederiz.
+
+Bu özel durumda, bir çözüm, çeşitli veri serilerini doğrudan etiketlemektir (Bölüm 3'te ele aldığımız Gestalt yakınlık ilkesinden yararlanarak veriler arasında git gel işini azaltmak). Daha genel olarak, daha büyük, tutarlı bilgi yığınları oluşturmak istiyoruz, böylece onları izleyicilerimizin çalışma hafızasındaki sınırlı alana sığdırabiliriz.
+
+#### Uzun Süreli Hafıza
+
+Bir şey kısa süreli hafızadan çıktığında ya unutulur ve muhtemelen sonsuza kadar kaybolur ya da uzun süreli hafızaya geçer. Uzun süreli bellek, bir ömür boyunca oluşturulur ve kalıp tanıma ve genel bilişsel işleme için hayati derecede önemlidir. Uzun süreli bellek, farklı şekillerde çalışan görsel ve sözel hafızanın toplamıdır. Sözlü hafızaya, bir sinir ağı aracılığıyla erişilir ve bu ağda, tanıma veya hatırlama için yol önemli hale gelir. Görsel hafıza ise özelleşmiş yapılarla çalışır.
+
+Uzun süreli belleğin, mesajımızın hedef kitlemizde kalıcı olması söz konusu olduğunda kullanmak istediğimiz yönleri vardır. Özellikle önemli olan şey, görsellerin uzun süreli sözlü hafızamızda depolanan şeyleri daha hızlı hatırlamamıza yardımcı olabilmesidir. Örneğin, Eyfel Kulesi'nin bir resmini görürseniz, bildiğiniz bir kavram seli, hissettiğiniz bazı duygular veya Paris'te yaşadığınız deneyimler tetiklenebilir. Görsel ve sözel olanı birleştirerek, hedef kitlemizde uzun süreli anıların oluşmasını tetikleme konusunda kendimizi başarıya hazırlıyoruz
+
+### Dikkat Çekici Nitelikler Nereye Bakılacağını Gösterir
+
+Dikkat çekici niteliklerin gücünü kanıtlamanın en iyi yolu, örnek göstermektir. Şekil 53'te bir sayı bloğunu göstermektedir. Bilgileri nasıl işlediğinizi ve ne kadar sürdüğünü not alarak, dizide görünen 3’leri hızlıca sayın.
+
+| ![space-1.jpg](https://i.vgy.me/lIQxPy.png) |
+| :-----------------------------------------: |
+|                 *Şekil 53*                  |
+
+Doğru cevap altıdır. Şekil 53'te bu sonuca ulaşmanıza yardımcı olacak görsel ipuçları yoktu. Bu, dört satırlık metin boyunca arama yapmanız ve 3 sayısını (bir tür karmaşık şekil) aramanız gereken zorlu bir alıştırmadır. Sayı bloğunda tek bir değişiklik yaptığımızda ne olduğuna bakınız. Şekil 54'ü kullanarak 3'leri sayma alıştırmasını tekrarlayın.
+
+| ![space-1.jpg](https://i.vgy.me/M3AsDf.png) |
+| :-----------------------------------------: |
+|                 *Şekil 54*                  |
+
+Şekil 54'ü kullanarak aynı alıştırmanın ne kadar kolay ve hızlı olduğuna dikkat edin. Gözünüzü kırpmanıza, gerçekten düşünmenize vaktiniz yok ve aniden önünüzde altı tane 3 var. Bu çok hızlı bir şekilde ortaya çıkıyor çünkü bu ikinci görsel ile ikonik hafızanız kullanılıyor. Renk yoğunluğunun dikkat çekici niteliği, bu durumda, 3'leri diğerlerinden farklı olarak öne çıkan tek şey yapar. Beynimiz, bilinçli bir düşüncemizi ona adamak zorunda kalmadan bunu çabucak kavrar.
+
+Bu dikkate değer ve son derece güçlüdür. Bu, dikkat çekici nitelikleri stratejik olarak kullanırsak, __*hedef kitlemizin görmelerini istediğimiz şeyi, daha onlar gördüklerini bile anlamadan görmelerini sağlamamıza yardımcı olabilecekleri anlamına gelir!*__
+
+Şekil 55'te çeşitli dikkat çekici nitelikleri göstermektedir.
+
+| ![space-1.jpg](https://i.vgy.me/BkaTuk.png) |
+| :-----------------------------------------: |
+|                 *Şekil 55*                  |
+
+Şekil 55'teki nitelikleri tararken, gözünüzün her grupta diğerlerinden farklı olan bir öğeye çekildiğini farkedin: farklılığı aramak zorunda değilsiniz. Bunun nedeni, beynimizin çevremizde gördüğümüz farklılıkları çabucak algılayacak şekilde yapılandırılmış olmasıdır.
+
+Dikkat edilmesi gereken bir şey, insanların nicel değerleri dikkat çekici niteliklerin bazılarıyla (hepsi değil) ilişkilendirme eğiliminde olmalarıdır. Örneğin, çoğu insan uzun bir çizginin kısa bir çizgiden daha büyük bir değeri temsil ettiğini düşünecektir. Bu, çubuk grafikleri okumamızın basit olmasının nedenlerinden biridir. Ama rengi aynı şekilde düşünmüyoruz. Hangisinin daha büyük olduğunu sorulursa - kırmızı mı mavi mi? - bu anlamlı bir soru olmaz. Bu önemlidir, çünkü bize hangi niteliklerin nicel bilgiyi kodlamak için kullanılabileceğini (çizgi uzunluğu, uzamsal konum veya daha sınırlı bir ölçüde, çizgi genişliği, boyutu ve yoğunluğu göreli değeri yansıtmak için kullanılabilir) ve hangilerinin kategorik farklılaştırıcılar olarak kullanılması gerektiğini söyler.
+
+Dikkatli bir şekilde kullanıldığında, dikkat çekici nitelikler iki şey yapmak için son derece yararlı olabilir: (1) hedef kitlenizin dikkatini, bakmalarını istediğiniz yere hızla çekmek ve (2) görsel bir bilgi hiyerarşisi oluşturmak.
+
+
+#### Metindeki Dikkat Çekici Nitelikler
+
+Herhangi bir görsel ipucu olmadan, bir metin bloğu ile karşılaştığımızda, tek seçeneğimiz onu okumaktır. Ancak dikkatli bir şekilde kullanılan dikkat çekici nitelikler bunu çabucak değiştirebilir. Şekil 56 daha önce tanıtılan bazı dikkat çekici niteliklerden nasıl yararlanabileceğimizi gösterir. İlk metin bloğu, herhangi bir dikkat çekici nitelik kullanmıyor. Bu, 3'ler örneğindeki sayıma benzer hale getirir: okumanız, önemli veya ilginç olanı ayırmanız, sonra ilginç kısımları geri kalanının bağlamına geri koymak için muhtemelen tekrar okumanız gerekir.
+
+Dikkat çekici niteliklerden yararlanmanın bilgiyi işleme şeklinizi nasıl değiştirdiğini gözlemleyin. Aşağıdaki metin bloklarının her biri tek bir dikkat çekici niteliği kullanır. Her birinde dikkat çekici niteliğin dikkatinizi nasıl çektiğini ve bazı niteliklerin gözlerinizi diğerlerinden daha fazla veya daha zayıf bir şekilde nasıl çektiğine dikkat edin (örneğin, renk ve boyut dikkat çekicidir, italikler ise daha hafif bir vurgu sağlar).
+
+| ![space-1.jpg](https://i.vgy.me/77NQ76.png) |
+| :-----------------------------------------: |
+|                 *Şekil 56*                  |
+
+Hedef kitlemizin dikkatini odaklamalarını istediğimiz yere çekmenin ötesinde, iletişimlerimizde __görsel hiyerarşi__ oluşturmak için dikkat çekici nitelikler kullanabiliriz. Şekil 56'da gördüğümüz gibi, çeşitli nitelikler dikkatimizi farklı güçlerle çekiyor. Ek olarak, belirli bir dikkat çekici niteliği içinde, az ya da çok dikkat çekecek farklılıklar vardır. Örneğin, renk özelliğinde, parlak bir mavi, genellikle cansız bir maviden daha fazla dikkat çeker. Her ikisi de açık griden daha fazla dikkat çekecektir. Bu farktan yararlanabilir ve bazı bileşenleri vurgulayarak ve diğerlerini kaldırarak görsellerimizi taranabilir hale getirmek için birden fazla dikkat çekici niteliği birlikte kullanabiliriz. Dikkat çekici nitelikler, görsel bir bilgi hiyerarşisi oluşturmaya yardımcı olabilir.
+
+Açık bir görsel bilgi hiyerarşisi oluşturmak için dikkat çekici niteliklerden yararlanmak, hedef kitleniz için bilgilerin nasıl işleneceğini gösteren kesin talimatlar oluşturur. İlk önce dikkat etmeleri gereken en önemli şeyin, daha sonra dikkat etmeleri gereken ikinci en önemli şeyin ne olduğunu vb. işaret edebiliriz. Gerekli ancak mesajı etkilemeyen bileşenleri arka plana itebiliriz, böylece dikkat çekmek için rekabet etmezler. Bu, hedef kitlemizin sağladığımız bilgileri almasını hem daha kolay hem de daha hızlı hale getirir. 
+
+#### Grafiklerde Dikkat Çekici Nitelikler
+
+Grafikler, başka görsel ipuçları olmadığında, daha önce ele aldığımız 3'leri sayma alıştırmasına veya metin bloğuna çok benzer hale gelebilir. Şu örneği ele alın. Bir araba üreticisi için çalıştığınızı hayal edin. Belirli bir araç markası ve modeli için müşterilerden gelen en önemli tasarım endişeleri (1.000 endişe başına endişe sayısı olarak ölçülür) hakkında bilgi edinmek ve paylaşmakla ilgileniyorsunuz. İlk görseliniz Şekil 57 gibi görünebilir.
+
+
+| ![space-1.jpg](https://i.vgy.me/xSjRkQ.png) |
+| :-----------------------------------------: |
+|                 *Şekil 57*                  |
+
+Diğer görsel ipuçları olmadığında, tüm bilgileri işlemek zorunda bırakıldığınıza dikkat edin. Neyin önemli olduğu veya neye dikkat edilmesi gerektiği konusunda hiçbir ipucu olmadan, yine 3'lerin sayılması gibidir.
+
+Keşfedici ve açıklayıcı analiz arasında daha önce çizilmiş olan ayrımı anlatılmıştı. Şekil 57'deki görsel, keşif aşamasında oluşturduğunuz bir görsel olabilir: Bir başkasıyla iletişim kurmak için neyin ilginç veya dikkate değer olduğunu anlamak için verilere bakarken. Şekil 57 bize 1000'de 8'den fazla kaygıya sahip on tasarım kaygısı olduğunu göstermektedir.
+
+Açıklayıcı analiz ve hedef kitlenizle bilgi paylaşmak için (sadece verileri göstermek yerine) bu görselden yararlanmak söz konusu olduğunda, Şekil 58'de gösterildiği gibi, renk ve metnin düşünceli kullanımı hikayeye odaklanmanın bir yoludur.
+
+| ![space-1.jpg](https://i.vgy.me/5cmTG9.png) |
+| :-----------------------------------------: |
+|                 *Şekil 58*                  |
+
+Şekil 59'da gösterildiği gibi, hedef kitlenize hikayenin makrodan mikro bölümlerine yönlendirmek için aynı görsel ancak değiştirilmiş odak ve metin kullanarak bir adım daha ileri gidebiliriz.
+
+| ![space-1.jpg](https://i.vgy.me/NGo1vW.png) |
+| :-----------------------------------------: |
+|                 *Şekil 58*                  |
+
+Özellikle canlı sunum ortamlarında, farklı hikayeleri veya aynı hikayenin farklı yönlerini anlatmak için farklı vurgulanan aynı görselin tekrarlanan yinelemeleri (Şekil 57, 58 ve 59'da gösterildiği gibi) etkili bir strateji olabilir. Bu, hedef kitlenizi önce verileriniz ve görselinizle tanıştırmanıza ve ardından gösterilen şekilde yararlanmaya devam etmenize olanak tanır. Bu örnekte, dikkat çekici niteliklerin stratejik kullanımı nedeniyle odaklanmanız gereken görselin öğelerine gözlerinizin nasıl çekildiğine dikkat edin.
+
+> __Bir Özelliği Vurgulamak, Diğer Şeylerin Görülmesini Zorlaştırabilir__
+> 
+> Dikkat çekici nitelikleri kullanırken bir uyarı: hikayenizde bir noktayı vurguladığınızda, bu aslında diğer noktaların görülmesini zorlaştırabilir. Bu nedenle keşfedici analiz yaparken, çoğunlukla dikkat çekici niteliklerin kullanımından kaçınmalısınız. Ancak açıklayıcı analiz söz konusu olduğunda, hedef kitlenize ilettiğiniz belirli bir hikayeniz olmalıdır. Bu hikayeyi görsel olarak netleştirmeye yardımcı olmak için dikkat çekici niteliklerden yararlanın.
+
+Hedef kitlenizin dikkatini odaklamak söz konusu olduğunda, stratejik bir bakış açısıyla çok önemli olan birkaç dikkat çekici nitelik vardır: boyut, renk ve sayfadaki konum. Aşağıdaki bölümlerde bunların her birini ele alacağız.
+
+## Boyut
+
+Boyut önemlidir. Göreceli boyut, göreli önemi ifade eder. Görsel iletişiminizi tasarlarken bunu aklınızda bulundurun. Kabaca eşit öneme sahip birden fazla şey gösteriyorsanız, bunları benzer şekilde boyutlandırın. Alternatif olarak, gerçekten önemli bir şey varsa, bunu belirtmek için boyuttan yararlanın: __BÜYÜK__ yapın.
+
+Aşağıdaki örnek, boyutun neredeyse istenmeyen sonuçlara neden olduğunu gösteren gerçek bir durumdur. 
+
+Google'da çalışan birinin deneyimlediği bir durumda, karar verme sürecine yardımcı olacak bir gösterge panosu (dashboard) tasarlarken, tasarım aşamasında, gösterge panosuna dahil edilmek istenen üç ana bilgi parçası bulunmaktaydı, ancak sadece bunlardan yalnızca biri hazırdı. Gösterge panosunun ilk sürümünde, ellerindeki bilgiler, toplanılan diğer bilgiler ve yer tutucularla birlikte, gösterge panosunun %60'ını kaplamaktaydı. Diğer veriler analiz edildikten sonra, mevcut yer tutucuların yerine aktarılmıştır. Projenin oldukça sonlarında, eklenen ilk verilerin boyutunun, sayfadaki diğer bilgilerle karşılaştırıldığında gereğinden daha fazla dikkat çektiği fark edilmiştir. Neyse ki bu durumu çok geç olmadan fark etmişlerdi. Düzeni, eşit derece önemli üç şeyi aynı boyutta yapacak şekilde değiştirmişlerdir. Tasarımdaki bu değişimin sonucunda gösterge panosunda çok daha farklı alanlar dikkat çekmeye başlamıştır.
+
+Boyut, tasarım konusunda renkle beraber oldukça önemli bir noktadır. Tasarım seçimlerinizin tesadüf olmasına izin vermeyin; her detayı düşünün. 
+
+## Renk
+
+Dikkatli kullanıldığında renk, hedef kitlenizin dikkatini çekmek için sahip olduğunuz en güçlü araçlardan biridir. Tasarımın renkli olması için renk kullanmayın, bunun yerine, görselinizin önemli kısımlarını vurgulamak için rengi seçereke stratejik bir araç olarak kullanın. Renk kullanımı her zaxman kasıtlı bi karar olmalıdır. Araçlarınızın sizin için bu önemli kararı sizin için vermesinme asla izin vermeyin.
+
+Görsellerde genellikle giri tonlarda tasarımlar ve dikkat çekmek istenen yerde tek bir koyu renk kullanılmaktadır. Temel renk, siyah değil gridir, daha fazla kontrast sağlamak için için gri rengi siyahtan daha fazla öne çıkmaktadır. Dikkat çekici renk için genellikle birkaç nedenden dolayı mavi kullanılmaktadır: 1 Renk körlüğü sorunlarından kaçınmak için ve siyah beyaz çıktı alındığında grağin anlamının değişmemesi için. Bununla birlikte, mavi kullanılması tek seçenel değildir.
+
+Renk kullanımı söz konusu olduğunda, bilinmesi gereken birkaç özel ders vardır: rengi dikkatli kullanın, tutarlı bir şekilde kullanın, renk körlerini göz önünde bulundurarak tasarım yapın, renklerin aktardığı tonlara dikkat edin ve markja renklerinden yararlanıp yararlanamacağınızı düşünün. Bunların her biri aşağıda ayrıntılı olarak açıklanmıştır.
+
+### Renkleri Dikkatli Kullanın
+
+Güvercinlerle dolu bir gökyüzünde şahini tespit etmek kolaydır, ancak kuşların çeşitliliği arttıkça şahini bulmak giderek zorlaşır. Geçen bölümde dağınıklık üzerine tartışırken kullanılan özdeğiş ve aynı prensip burada da geçerlidir. Çok fazla çeşitlilik, herhangi bir şeyin öne çıkmasını engeller. Bir şeyin hedef kitlenizin dikkatini çekmesini sağlamak için yeterli kontrast olması gerekmektedir.
+
+Gökkuşağı diyarına girmenin ötesinde, çok fazla renk bir arada kullanıldığında, onların dikkat çekici değer kaybolmaktadır. Örnek olarak Şekil 52'nin sol tarafoıan benzer şekilde, birkaç farklı ülkede bir avuç farmasötik ilaç için pazar sıralamsını gösteren tablo yayınlanmıştır. Her sıraya (1, 2, 3 vb.) bir gökkuşağı spekturumu boyunca kendi rengi atanmıştır: 1 = kırmızı, 2 = turuncu, 3 = sarı, 4 = açık yeşil, 5 = yeşil, 6 = deniz mavisi, 7 = mavi, 8 = koyu mavi, 9 = açık mor, 10+ = mor. Tablodaki hücreler, sayısal sıralamaya karşılık gelen renkle doldurulmuştur. Dikkat çekici niteliklerin gücü kaybolmuştu: herşey farklıydı, bu da hiçbir şeyin göze çarpmadığı anlamına geliyordur. Çünkü renklerdeki farklılıklar aslında yardımcı olmaktan çok dikkat dağıtıcıydı. Daha iyi bir alternatif, tek bir rengin (bir ısı haritası) değişen renmk doygunluğunu kullanmak olacaktır.
+
+| ![space-1.jpg](https://i.vgy.me/5KIgFJ.png) |
+| :-----------------------------------------: |
+|                 *Şekil 52*                  |
+
+Şekil 52'yi ele alalım. __Soldaki versiyonda gözleriniz nereye bakıyor.__ Çoğunlukla neye dikkat etmek gerektiğini bulmak için etrafta dolanmaktadır. Muhtemelen daha yüksek renk doygunluğuna sahip olduklarından, koyu mor, sonra kırmızı, sonra laciverte dikkat edilmektedir. Ancak, bu renklerin neyi temsil ettiğini düşündüğümzüde, hedef kitlenin görmesi istenen yerler bu değildir.
+
+Sağ taraftaki versiyonda tek bir rengin değişen doygunluğu kullanılmıştır. Göreceli doygunluk söz konusu olduğunda algımızın daha sınırlı olduğunu unutmayın, ancak elde ettiğimiz bir fayda, beraberinde bazı nicel varsayımları taşımasıdır (daha yoğun olan doygunluk, daha azdah daha büyük bir değeri temsil eder veya tam tersi). Bu durum, düşük sayıların (piyasa liderleri) en yüksek renk doygunluğu ile gösterilmektedir. Önce lacivert olana, yani pazar liderlerine çekiliyoruz. Bu örnek rengin göreceli kullanımıdır.
+
+
+> __Gözlerin Baktığı Yer__
+> 
+> Dikkat çekici niteliklerin etkin bir şekilde kullanılıp kullanılmadığını belirlemek için kolay bişr test vardır. Görselinizi yaratın, ardından gözlerinizi kapatın veya bir an için başka yere bakın ve sonra tekrar bakın, gözleriniz önce nereye bakıyor not edin. hedef kitlenizin odaklanmasını istediğiniz yere hemen bakıyor mu? Daha da iyisi, bir arkadaşınızdan veya meslektaşınızdan yardım isteyin; onlardan görseli nasıl işledikleri hakkında sizinle konuşmalarını isteyin: gözlerinin önce nereye baktığını, sonra nereye baktığını vb. Bu durum, olayları hedef kitlenizin gözünden görmenin ve yarattığınız görselin dikkat çekip çekmediğini ve istediğiniz şekilde görsel bir bilgi hiyerarşisi oluşturup oluşturmadığını doğrulamanın harika bir yoludur.
+
+
+### Renkleri Tutarlı Kullanın
+
+Veri görselleştirme derslerinde sıklıkla sorulan sorulardan biri de, hedef kitlenin sıkılmaması için renkleri veya grafik türlerini değiştirmek mantıklı mıdır? Cevap __Kesinlikle Hayır__. Anlattığınız hikaye, hedef kitlenizin dikkatini çeken şey olmalıdır, grafiklerinizin tasarım öğeleri değil. Grafiğin türü söz konusu olduğunda, her zaman hedef kitlenizin okuması en kolay olanı kullanmalısınız. Aynı şekilde grafikte dikkat çekici bilgileri gösterirken, hedef kitlenizi bilgiyi nasıl okuyacaklarını eğitirken, sonraki grafiklerin yorumlanmasını tamamen kolaylaştırırken ve zihinsel yorgunluğu azaltırken aynı düzeni korumakta yararldır.
+
+Renklerdeki değişiklik tam da bunu gösterir. Bu nedenle, hedef kitlenizin herhangi bir nedenle değişiklik hissetmesini istediğinizde bunu kullanın, ancak asla sadece yenilik açısından değil. İletişiminizi gri tonlarda tasarlıyorsanız ve dikkat çekmek için tek bir renk kullanıyorsanız, iletişim boyunca aynı şemadan yararlanın. Hedef kitleniz, örneğin mavinin ilk bakmaları gereken yer işaret ettiğini çabucak öğrenir ve sonraki slaytları veya görselleri işlerken bu anlayışı kullanabilir. Bununla birlikte, konu veya tonda net bir değişikliğin sinyaliğini vermek istiyorsanız, bunu görsel olarak güçlendirmenin bir yolu renkte bir değişikliktir.
+
+Renk kullanımının tutarlı olması gereken bazı durumlar vardır. Hedef kitleniz genellikle bir kez renklerin ne anlama geldiğini öğrenmek için zaman harcayacak ve ardından aynı ayrıntıların iletişimin geri kalanında geçerli olduğunu varsayacaktır. Örneğin, bir grafikte dört bölge genelindeki verileri, sunumunuz veya raporunuzda tek bir yerde her birinin kendi rengi olan verileri görüntülüyorsanız, aynı şemayı sununuzun veya raporunuzun geri kalanındaki görseller boyunca koruduğunuzdan emin olun (ve mümkünse aynı renklerin başka amaçlarla kullanmayın). __Renk kullanımınızı değiştirerek hedef kitlenizin kafasını karıştırmayın__
+
+### Renk Körü Durumunu Göz Önünde Bulundurarak Tasarım Yapın
+
+Erkeklerin yaklaşık %8'i ve kadınların %0,5'i renk körüdür. Bu durum en sık olarak, kırmızının tonlarını ve yeşilin tonlarını ayırt etmede zorluk olarak kendini gösterir. Genel olarak kırmızının tonlarıyla yeşilin tonlarını bir arada kullanmaktan kaçınmalısınız. Ancak bazeni kırmızı ve yeşilin kullanılmasıyla gelen yararlı çağrışım vardır: dikkat çekmöek istediğiniz çift haneli kaybı belirtmek için kırmızı veya önemli büyümeyi vurgulamak için yeşili kullanmak gibi. Bunlardan yine de yararlanabilirsiniz, ancak önemli sayıları birbirinden ayırmak için bazı ek görsel ipuçlarına sahip olduğunuzdan emin olun, böylece istemeden hedef kitlenizin bir kısmını yanlış anlaşılmadan uzak tutabilirsiniz. Ayrıca, göze çarpmalarını sağlamak için kalın, değişen renk doygunluk veya parlaklık kullanmayı veya sayıların önüne basit bir artı veya eksi işareti eklemeyi düşünün.
+
+Bir görsel tasarlarken ve hem olumlu hem de olumsuz yönleri vurgulamak için renkler seçerken, olumluyu belirtmek için maviyi ve olumsuzu belirtmek için turuncu sıklıkla kullanmaktadır. Bu renklerle olumlu ve olumsuz ilişkilerin hala tanınabilir olduğunu ve yukarıda açıklanan renk körü zorluğundan kaçınılmaktadır. Bu durumla karşılaştığınızda, ölçeğin her iki ucunu (olumlu ve olumsuz) renkle vurgulamanız gerekip gerekmediğini veya birine veya diğerine (veya sırayla, birine ve diğerine) dikkat çekmenin hikayenizi anlatmak için işe yarayıp yaramadığını düşünün.
+
+> __Renk Körü Gözlerle Grafiklerinizi ve Slatylarınızı Görün__
+> 
+> Görselinizin renk körü gözlerle nasıl göründüğünü görmenizi sağlayan renk körlüğü simülatörlerine sahip bir dizi site ve uygulama vardır. Örneğin, Vischeck (vischeck.com), kendi bilgisayarınızdaki görüntüleri yüklemenize veya bilgisayarınızda kullanmak üzere araç indirmenize izin verir. Color Oracle (colororacle.org), kullanılan yazılımdan bağımsız olarak tam ekran renk filtresi uygulayan Windows, Linux veya Mac için ücretsiz bir indirme sunar. CheckMyColors ( checkmycolours.com), ön plan ve arka plan renklerini kontrol etmek ve renk görme eksikliği olan biri tarafından görüntülendiğinde yeterli kontrast sağlayıp sağlamadığını belirlemek için bir araçtır.
+
+### Rengin İlettiği Ton Üzerine Düşünün
+
+Renk duygu uyandırır. Veri görselleştirmeniz veya daha geniş iletişiminiz ile ayarlamak istediğiniz tonu düşünün ve hedef kitlenizde uyandırmak istediğiniz duyguyu güçlendirmeye yardımcı olacak bir renk (veya renkler) seçin. Konu ciddi mi yoksa hafif mi? Çarpıcı, cesur bir ifade mi veriyorsunuz ve renklerinizin bunu yansıtmasını mı istiyorsunuz yoksa sessiz bir renk şemasıyla daha ihtiyatlı bir yaklaşım uygun mu?
+
+Ortaya çıkan görseller, özünde tamamen aynı olmasına rağmen, basit değişiklikler nedeniyle tamamen farklı bir görünüme ve hislere sahip grafikler oluşturulabilir. Verilerle iletişim kurarken verdiğimiz diğer kararların çoğunda olduğu gibi, bu tür tasarım seçimleri yaparken hedef kitle akılda tutulmalı ve onların ihtiyaçları ve istekleri göz önünde bulundurulmalıdır.
+
+Renk ve tonla ilgili başka bir örnek olarak, bir iş gezisinde bir havayolu dergisinde ilgili verileri gösteren grafikler eşliğinde çevrimiçi flört hakkında kabarık bir makale bulunmaktadır. Grafikler neredeyse tamamen pembe ve deniz mavisiydi. Üç aylık iş raporunuz için bu renk şemasını seçer miydiniz? Kesinlikle değil. Ancak bu görsellerin eşlik ettiği makalenin doğası ve canlı tonu göz önüne alındığında, canlı renkler işe yaramıştır ve dikkat çekici bir hale gelmiştir.
+
+### Marka Renkleri: Yararlanmalı mı, Yararlanmamalı mı? 
+
+Bazı şirketler, markalarını ve ilgili renk paletlerini oluşturmak için büyük girişimlerde bulunur. Birlikte çalışmanız gereken veya yararlanmanız gereken marka renkleri olabilir. Böyle bir durumda başarının anahtarı, "hedef kitlenize buraya bakın" ipuçları olarak kullanmak üzere markaya uygun bir veya iki renk belirlemek ve renk paletinizin geri kalanını gri veya siyah tonlarıyla nispeten sessiz tutmaktır.
+
+Bazı durumlarda marka renklerinden tamamen uzaklaşmak mantıklı olabilir. Örneğin, marka rengi yeşilin açık tonu olan bir müşteri ile çalıştığınızı düşünün. Başlangıçta bu yeşili öne çıkan renk olarak kullanıyorsunuz, ancak bu yeterince dikkat çekici olmadı. Yeterli kontrast yoktu, bu yüzden yarattığınız görsellerde soluk bir his vardı. Bu durumda, diğer her şey gri tonlarındayken dikkat çekmek için koyu siyah kullanabilir veya tamamen farklı bir renk seçebilirsiniz; yalnızca birlikte gösterilmeleri gerekiyorsa marka renkleriyle çakışmadığından emin olun ( örneğin, oluşturduğunuz slayt destesinin her sayfasında marka logosu olacaksa). Yaklaşımların her birinin bir örneği Şekil 53'te gösterilmektedir.
+
+
+| ![space-1.jpg](https://i.vgy.me/CZ1qMh.png) |
+| :-----------------------------------------: |
+|                 *Şekil 53*                  |
+
+__Kısacası: renk kullanımınız söz konusu olduğunda düşünceli olun!__
+
+----------
+
+## Sayfadaki Konum
+
+Başka görsel ipuçları olmadan, hedef kitlenizin çoğu üyesi görselinizin veya slaydınızın sol üst köşesinden başlayacak ve gözleriyle ekran veya sayfa boyunca zikzak hareketlerle tarama yapacaktır. Önce sayfanın üstünü görürler, en önemli şeyi buraya koymayı düşünün.
+
+| ![space-1.jpg](https://i.vgy.me/j9Iqqw.png) |
+| :-----------------------------------------: |
+|                 *Şekil 54*                  |
+
+Bir şey önemliyse, kitlenizi ona ulaşmak için başka şeyler arasında bekletmemeye çalışın. Önemli olanı en üste koyarak bu işi ortadan kaldırın. Bir slaytta bunlar kelimeler olabilir (ana paket veya harekete geçirici mesaj). Bir veri görselleştirmesinde, hedef kitlenizin önce hangi verileri görmesini istediğinizi ve görseli buna göre yeniden düzenlemenin mantıklı olup olmadığını düşünün.
+
+Hedef kitlenizin bilgiyi aldığı şekilde çalışmayı hedefleyin, ona karşı değil. İzleyicilerden kendilerine doğal gelen yola karşı çalışmalarını istemeye bir örnek:  Bazen veri görselleştirmede gerçekleştirilen, pozitif değerlerin solda olması (ki bu daha tipik olarak negatif ile ilişkilendirilir) ve negatif değerlerin sağda olması (ki bu daha tipik olarak pozitif olarak ilişkilidir) pozitiften negatife doğru değişen bir ölçek olarak düşünülebilir. Yine bu örnekte bilgi, izleyicinin bilgiyi almak istemesine ters düşecek şekilde düzenlenmiştir ve görseli deşifre etmeyi zorlaştırmaktadır.
+
+Öğeleri bir sayfada nasıl konumlandırdığınıza dikkat edin ve bunu hedef kitlenizin tüketmesi için doğal hissedecek şekilde yapmayı hedefleyin.
+
+---
+
+## Özet
+ 
+ Dikkat çekici nitelikler, görsel iletişimde dikkatli ve stratejik olarak kullanıldığında güçlü araçlardır. Başka ipuçları olmadan, izleyicilerimiz önlerine koyduğumuz tüm bilgileri işlemeye bırakılır. Neyin önemli olduğunu belirtmek için boyut, renk ve sayfadaki konum gibi önceden belirlenmiş özelliklerden yararlanarak bunu kolaylaştırın. Hedef kitlenizin görünmesini istediğiniz yere dikkat çekmek için bu stratejik nitelikleri kullanın ve hedef kitlenizi görsel boyunca istediğiniz şekilde yönlendirmeye yardımcı olan görsel hiyerarşi oluşturun. “Gözleriniz ilk nereye odaklanıyor?” Sorusunu uygulayarak görselinizdeki dikkat çekici özelliklerinin etkinliğini değerlendirin.

@@ -318,7 +318,7 @@ Nasıl ki satırlar için  çoklu indeks oluşturabiliyorsakj sütunlar için de
 
 ## Data Framelerde Seçim Yapma
 
-Bir data framedeki herhangi bir sütunu seçmek a da görnmek için __dataframe["sutun_adı"]__ formatı kullanılır. Önce dataframein ismi ve yanında köşeli parantez içinde, tırnak ya da kesme işareti içinde görülmek istenen sütun ismi yazılır. Yukarıdaki iris veri setinde __Pedal_Length__ sütununu görmmek için __iris["Pedal_Length"] yazılmalıdır.
+Bir data framedeki herhangi bir sütunu seçmek a da görnmek için __dataframe["sutun_adı"]__ formatı kullanılır. Önce dataframein ismi ve yanında köşeli parantez içinde, tırnak ya da kesme işareti içinde görülmek istenen sütun ismi yazılır. Yukarıdaki iris veri setinde __Pedal_Length__ sütununu görmmek için __iris["Pedal_Length"]__ yazılmalıdır.
 
 ```python
 >>> iris["Pedal_Length"]
@@ -457,7 +457,7 @@ ERN	 95.0	     90.2	   99.5	  97.5
 HEA	 55.0	     53.0	   57.4	  59.3
 ```
 
-Bir sütun ve satırdaki değeri almak için sütun ve satır isimlerini sırayla köşeli parantez içinde aşağıda görüldüğü gibi belirtmek mümkündür. Önce sütun daha sonra satır ismi belirttiğimize dikkat edin.
+Bir sütun ve satırdaki değeri almak için sütun ve satır isimlerini sırayla köşeli parantez içinde aşağıda görüldüğü gibi belirtmek mümkündür. Önce __sütun__ daha sonra __satır__ ismi belirttiğimize dikkat edin.
 
 ```python
 >>> hisseler["Acilis"]["ERN"]
@@ -473,7 +473,7 @@ Aynı seçimi aşağıdaki şekilde de yapabilirsiniz.
 95.0
 ```
 
-Şimdi de birden fazla satır ve sütun ismi kullanılarak seçim yapmayı görelim. Bu tür seçimlerde __.loc__ özelliğini kullanırsınız. Bunun için de istediğimiz satır ve sütunları virgülle ayrılmış iki ayrı liste olarak istemeniz gerekmektedir.
+Şimdi de birden fazla satır ve sütun ismi kullanılarak seçim yapmayı görelim. Bu tür seçimlerde __.loc__ özelliğini kullanırsınız. Bunun için de istediğimiz __satır__ ve __sütunları__ __virgülle ayrılmış iki ayrı liste__ olarak istemeniz gerekmektedir.
 
 ```python
 >>> hisseler.loc[["ERN","HEA"], ["En_Dusuk", "En_Yuksek"]]
