@@ -144,3 +144,52 @@ Yahoo Finance - Stock Market Live, Quotes, Business & Finance NewsHomeMailNewsFi
 print(sonuc_duzgun.p)
 <p class="P(20px) M(0)"><span>We are experiencing some temporary issues. The market data on this page are currently delayed. Please bear with us as we address this and restore your personalized lists.</span></p>
 ```
+
+### İnternetten Veri Okuma Örneği: Kripto Paralar
+
+```python
+from bs4 import BeautifulSoup
+from selenium import webdriver
+from datetime import datetime
+import pandas as pd
+import time
+
+
+working_time = 0
+starting_time = datetime.now()
+
+
+while (datetime.now()-starting_time).seconds <= 240:
+    data = []
+    degisken = []
+    gozlem = []
+    degisken.append("Zaman")
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    gozlem.append(current_time)
+    driver = webdriver.Chrome('./chromedriver')
+    driver.get("https://finance.yahoo.com/cryptocurrencies/")
+
+    sonuc = BeautifulSoup(driver.page_source, "html.parser")
+    driver.close()
+    table = sonuc.find("table", attrs={"class": "W(100%)"})
+    table_body = table.find("tbody")
+    rows = table_body.find_all("tr")
+    for row in rows:
+        cols = row.find_all("td")
+        cols = [ele.text.strip() for ele in cols]
+        data.append([ele for ele in cols if ele])
+
+    for para in data:
+        degisken.append(para[1])
+        gozlem.append(para[2])
+
+    dataframe = pd.DataFrame([gozlem], columns=degisken)
+
+    df = pd.read_excel("kriptolar.xlsx")
+    df2 = pd.concat([df, dataframe])
+    df2.to_excel("kriptolar.xlsx", index=False)
+    time.sleep(30)
+
+```
+
