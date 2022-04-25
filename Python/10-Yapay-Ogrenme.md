@@ -33,26 +33,11 @@ Yapay sinir ağlarının gelecekte çok daha fazla başarıya ulaşacağı düş
 
 ---
 
-#### Örnek Çalışma (Online Ödemelerde Dolandırıcılık Tespiti)
+#### Örnek Çalışma (Banka Müşteri Kaybı)
 
-Çalışmada Kaggle'da bulunan "Online Payments Fraud Detection Dataset" kullanılmıştır. https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset?resource=download
+Bu ders için seçtiğim İş problemimiz, bir bankanın müşterilerinin detaylarının bulunduğu bir veri setimizin olduğu bir sınıflandırma problemidir ve hedef değişken, müşterinin bankadan ayrılıp ayrılmadığını (hesabını kapattığını) yansıtan ikili bir değişkendir.
 
-**Değişkenler:**
-
-1. Step: Zamanın bir göstergesidir. 1 Adım 1 Saate eşittir.
-2. Type: Online işlemin tipi
-3. Amount: İşlem tutarı
-4. nameOrig: İşlemi başlatan müşteri
-5. oldbalanceOrg: İşlemden önceki bakiye
-6. newbalanceOrig: İşlemden sonraki bakiye
-7. nameDest: İşlemin alıcısı
-8. oldbalanceDest: Alıcının işlemden önceki ilk bakiyesi
-9. newbalanceDest: İşlemden sonra alıcının yeni bakiyesi
-10. isFraud: Dolandırıcılık işlemi
-
-Yukarıdaki maddelerden de gördüğünüz gibi toplam 10 değişken bulunmaktadır.
-
-Buradal, asıl amacımız, tüm bağımsız değişkenleri (ilk 9) dikkate alacak ve buna göre işlemin dolandırıcılık olup olmadığını tahmin edecek bir yapay sinir ağı oluşturmaktır (Dolandırıcılık burada bağımlı değişken).
+Çalışmada Kaggle'da bulunan "Churn Modelling Dataset" kullanılmıştır. https://www.kaggle.com/datasets/aakash50897/churn-modellingcsv
 
 **Yapay Sinir Ağı İçin Gerekli Kitaplıkları İçe Aktarma**
 
@@ -60,33 +45,135 @@ Yapay sinir ağlarının kullanılabilmesi için gerekli kütüphaneler aşağı
 
 ```python
 >>> import numpy as np
->>> import pandas as pd
->>> import tensorflow as tf
+>>> import pandas as pd 
+>>> import tensorflow
+>>> import keras
+>>> import matplotlib.pyplot as plt
+>>> import seaborn as sns
+>>> sns.set()
 ```
 
-**Verisetinin Tanımlanması**
+**Verisetinin Tanımlanması ve İncelenmesi**
 
 ```python
->>> data = pd.read_csv("fraud_data.csv")
->>> data.head()
+churn_data = pd.read_csv('Churn_Modelling.csv',index_col='RowNumber')
+churn_data.head()
 ```
+```python
+churn_data.info()
+```
+```python
+churn_data.describe()
+```
+**Verisetindeki Kullanılmayan Değişkenlerin Çıkartılması**
 
-**Özellik Matrisinin Oluşturulması**
-
-Bir makine öğrenme modeli oluştururken temel ilke, Özellik Matrisi olarak da adlandırılan X'i oluşturmaktır. Bu X temel olarak tüm bağımsız değişkenlerimizi içeririr.
+Verisetinde bulunan "CustomerId" ve "Surname" değişkenleri dataframeden çıkartılmıştır.
 
 ```python
->>> X = data.iloc[:,0:-2].values
->>> X
+churn_data.drop(['CustomerId','Surname'],axis=1,inplace=True)
+churn_data.head()
 ```
 
-Burada, veri kümesi içindeki istenen sütundan istenen değerleri getirmemizi sağlayan PANDAS veri çerçevesinin iloc yöntemi kullanılmıştır. Burada gördüüğünüz gibi 1. sütündan itibaren 9.sütuna kadar tüm veriler alınmıştır.
-
-**Bağımlı Değişken Vektör(Y) Oluşturma**
-
-Bağımsız değişken için öznitelik matrisimizi (X) oluşturduğumzu gibi, sadece bağımlı değişken değerlerimizi içeren bir bağımlı değişken vektörü (Y)'de oluşturmamız gerekmektedir.
+**Metin Olarak Tutulan Değişkenler İçin Kukla Değişken Oluşturulması**
 
 ```python
->>> Y = data.iloc[:,-2:-1].values
->>> Y
+Geography_dummies = pd.get_dummies(prefix='Geo',data=churn_data,columns=['Geography'])
+Geography_dummies.head()
 ```
+```python
+Gender_dummies = Geography_dummies.replace(to_replace={'Gender': {'Female': 1,'Male':0}})
+Gender_dummies.head()
+```
+```python
+churn_data_encoded = Gender_dummies
+```
+
+**Bağımlı Değişken Sınıfının İncelenmesi**
+```python
+sns.countplot(y=churn_data_encoded.Exited ,data=churn_data_encoded)
+plt.xlabel("Hedef Sınıf Frekans Dağılımı")
+plt.ylabel("Hedef Sınıf")
+plt.show()
+```
+
+**Değişkenlerin Dağılımlarının İncelenmesi**
+
+```python
+churn_data_encoded.hist(figsize=(15,12),bins = 15)
+plt.title("Features Distribution")
+plt.show()
+```
+
+**Değişkenler Arasındaki İlişkilerin İncelenmesi**
+```python
+plt.figure(figsize=(15,15))
+p=sns.heatmap(churn_data_encoded.corr(), annot=True,cmap='RdYlGn',center=0) 
+```
+
+**Bağımlı Değişken ve Bağımsız Değişkenlerin Oluşturulması**
+
+```python
+X = churn_data_encoded.drop(['Exited'],axis=1)
+y = churn_data_encoded.Exited
+```
+
+**Eğitim ve Test Verisetlerinin Oluşturulması**
+
+```python
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.33, random_state = 0)
+```
+
+**Bağımsız Değişkenlerin Standartlaştırılması**
+
+```python
+from sklearn.preprocessing import StandardScaler
+sc = StandardScaler()
+X_train = sc.fit_transform(X_train)
+X_test = sc.transform(X_test)
+```
+
+**Yapay Sinir Ağ Modelinin Oluşturulması**
+
+```python
+from keras.models import Sequential
+from keras.layers import Dense
+classifier = Sequential()
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 12))
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu'))
+classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
+classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 100,verbose = 0)
+score, acc = classifier.evaluate(X_train, y_train, batch_size=10)
+print('Train score:', score)
+print('Train accuracy:', acc)
+```
+
+**Oluşturulan Yapay Sinir Ağı Modelinin Test Verisetine Uygulanması**
+
+```python
+y_pred = classifier.predict(X_test)
+y_pred = (y_pred > 0.5)
+score, acc = classifier.evaluate(X_test, y_test, batch_size=10)
+print('Test score:', score)
+print('Test accuracy:', acc)
+```
+
+**Sınıflandırma Tablosunun Oluşturulması**
+
+```python
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
+p = sns.heatmap(pd.DataFrame(cm), annot=True, cmap="YlGnBu" ,fmt='g')
+plt.title('Confusion matrix', y=1.1)
+plt.ylabel('Gerçek Değer')
+plt.xlabel('Tahmin Değeri')
+```
+
+**Sınıflandırma Raporunun Oluşturulması**
+```python
+from sklearn.metrics import classification_report
+print(classification_report(y_test,y_pred))
+```
+
+Yorumlama ve daha fazla bilgi için: https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=_F5QEpayDXGqGZlp9XiFtGcL8B3K2dw0qIWxwvgmfiu7awSo0Z2au8XOX2T86lwO
